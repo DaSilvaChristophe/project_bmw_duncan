@@ -1,0 +1,19 @@
+{
+  "name": "project_bmw_duncan",
+  "version": "1.0.0",
+  "description": "BMW Financial Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaSilvaChristophe/project_bmw_duncan.git"
+  },
+  "author": "Da Silva Christophe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaSilvaChristophe/project_bmw_duncan/issues"
+  },
+  "homepage": "https://github.com/DaSilvaChristophe/project_bmw_duncan#readme"
+}
