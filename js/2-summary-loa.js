@@ -5,7 +5,7 @@ const titleOne = document.querySelector('.title_one');
 const svgInch = document.querySelector('#svg-inch');
 const svgInchOpacity = document.querySelector('#Groupe_20');
 
-function mouseOverBlockOne() {
+const  mouseOverBlockOne = () => {
     blockOne.style.background = "#0066B1";
     blockOne.style.opacity = "1";
     svgInch.style.fill = "#fff";
@@ -13,13 +13,17 @@ function mouseOverBlockOne() {
     titleOne.style.color = "#fff";
     }
 
-function mouseOutBlockOne() {
+const mouseOutBlockOne = () => {
     blockOne.style.background = "white";
     blockOne.style.opacity = "0.85";
     svgInch.style.fill = "black";
     svgInchOpacity.style.opacity= "0.5";
     titleOne.style.color = "black";
     }
+
+blockOne.addEventListener('click', () => {
+    window.location.href = "3-avantages-contract.html"
+})
 
 /* Block Two "VOS SERVICES" */
 
@@ -28,7 +32,7 @@ const titleTwo = document.querySelector('.title_two');
 const svgWheel = document.querySelector('#svg-wheel');
 const svgWheelOpacity = document.querySelector('#path7726');
 
-function mouseOverBlockTwo() {
+const mouseOverBlockTwo = () => {
     blockTwo.style.background = "#0066B1";
     blockTwo.style.opacity = "1";
     svgWheel.style.fill = "#fff";
@@ -36,13 +40,17 @@ function mouseOverBlockTwo() {
     titleTwo.style.color = "#fff";
     }
 
-function mouseOutBlockTwo() {
+const mouseOutBlockTwo = () => {
     blockTwo.style.background = "white";
     blockTwo.style.opacity = "0.85";
     svgWheel.style.fill = "black";
     svgWheelOpacity.style.opacity= "0.5";
     titleTwo.style.color = "black";
     }
+
+blockTwo.addEventListener('click', () => {
+    window.location.href = "4-services.html"
+})
 
 /* Block Three "VOS GARANTIES" */
 
@@ -51,7 +59,7 @@ const titleThree = document.querySelector('.title_three');
 const svgUmbrella = document.querySelector('#svg-umbrella');
 const svgUmbrellaOpacity = document.querySelector('#noun-umbrella-4922934');
 
-function mouseOverBlockThree() {
+const mouseOverBlockThree = () => {
     blockThree.style.background = "#0066B1";
     blockThree.style.opacity = "1";
     svgUmbrella.style.fill = "#fff";
@@ -59,7 +67,7 @@ function mouseOverBlockThree() {
     titleThree.style.color = "#fff";
     }
 
-function mouseOutBlockThree() {
+const mouseOutBlockThree = () => {
     blockThree.style.background = "white";
     blockThree.style.opacity = "0.85";
     svgUmbrella.style.fill = "black";
@@ -74,7 +82,7 @@ const titleFour = document.querySelector('.title_four');
 const svgOptions = document.querySelector('#svg-options');
 const svgOptionsOpacity = document.querySelector('#noun-options-4923509');
 
-function mouseOverBlockFour() {
+const mouseOverBlockFour = () => {
     blockFour.style.background = "#0066B1";
     blockFour.style.opacity = "1";
     svgOptions.style.fill = "#fff";
@@ -82,7 +90,7 @@ function mouseOverBlockFour() {
     titleFour.style.color = "#fff";
     }
 
-function mouseOutBlockFour() {
+const mouseOutBlockFour = () => {
     blockFour.style.background = "white";
     blockFour.style.opacity = "0.85";
     svgOptions.style.fill = "black";
@@ -98,7 +106,7 @@ const svgContactPartOne = document.querySelector('#Tracé_1');
 const svgContactPartTwo = document.querySelector('#Tracé_2');
 const svgContactOpacity = document.querySelector('#identite');
 
-function mouseOverBlockFive() {
+const mouseOverBlockFive = () => {
     blockFive.style.background = "#0066B1";
     blockFive.style.opacity = "1";
     svgContactPartOne.style.fill = "#fff";
@@ -107,7 +115,7 @@ function mouseOverBlockFive() {
     titleFive.style.color = "#fff";
     }
 
-function mouseOutBlockFive() {
+const mouseOutBlockFive = () => {
     blockFive.style.background = "white";
     blockFive.style.opacity = "0.85";
     svgContactPartOne.style.fill = "black";
@@ -122,13 +130,13 @@ const blockSix = document.querySelector('#block_six');
 const titleSix = document.querySelector('.title_six');
 
 
-function mouseOverBlockSix() {
+const mouseOverBlockSix = () => {
     blockSix.style.background = "#0066B1";
     blockSix.style.opacity = "1";
     titleSix.style.color = "#fff";
     }
 
-function mouseOutBlockSix() {
+const mouseOutBlockSix = () => {
     blockSix.style.background = "white";
     blockSix.style.opacity = "0.85";
     titleSix.style.color = "black";
@@ -144,7 +152,7 @@ const svgCalendarPartThree = document.querySelector('#Tracé_20');
 const svgCalendarOpacity = document.querySelector('#Groupe_13');
 
 
-function mouseOverBlockSeven() {
+const mouseOverBlockSeven = () => {
     blockSeven.style.background = "#0066B1";
     blockSeven.style.opacity = "1";
     svgCalendarPartOne.style.fill = "#fff";
@@ -154,7 +162,7 @@ function mouseOverBlockSeven() {
     titleSeven.style.color = "#fff";
     }
 
-function mouseOutBlockSeven() {
+const mouseOutBlockSeven = () => {
     blockSeven.style.background = "white";
     blockSeven.style.opacity = "0.85";
     svgCalendarPartOne.style.fill = "black";
@@ -164,6 +172,10 @@ function mouseOutBlockSeven() {
     titleSeven.style.color = "black";
     }
 
+blockSeven.addEventListener('click', () => {
+    window.location.href = "8-end-contract.html"
+})
+
 /* Block Eight "EN CAS DE SINISTRE" */
 
 const blockEight = document.querySelector('#block_eight');
@@ -172,7 +184,7 @@ const svgAccidentPartOne = document.querySelector('#svg-accident');
 const svgAccidentOpacity = document.querySelector('#Groupe_18');
 
 
-function mouseOverBlockEight() {
+const mouseOverBlockEight = () => {
     blockEight.style.background = "#0066B1";
     blockEight.style.opacity = "1";
     svgAccidentPartOne.style.fill = "#fff";
@@ -180,7 +192,7 @@ function mouseOverBlockEight() {
     titleEight.style.color = "#fff";
     }
 
-function mouseOutBlockEight() {
+const mouseOutBlockEight = () => {
     blockEight.style.background = "white";
     blockEight.style.opacity = "0.85";
     svgAccidentPartOne.style.fill = "black";

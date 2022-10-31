@@ -72,7 +72,6 @@ html, body {
     left: 15%;
     background-color: transparent;
     margin: auto;
-
 }
 
 h1 {
@@ -107,43 +106,12 @@ span {
     background-color: white;
 }
 
-#block_one {
+#block_one, #block_two, #block_three, #block_four, #block_five, #block_six, #block_seven, #block_eight{
     opacity: 0.85;
+    cursor: pointer;
 }
 
-#block_two {
-    opacity: 0.85;
-}
-
-#block_three {
-    opacity: 0.85;
-}
-
-#block_four {
-    opacity: 0.85;
-}
-
-#block_five {
-    opacity: 0.85;
-}
-
-#block_six {
-    opacity: 0.85;
-}
-
-#block_seven {
-    opacity: 0.85;
-}
-
-#block_eight {
-    opacity: 0.85;
-}
-
-.block_svg {
-    height: 50%;
-}
-
-.block_title {
+.block_svg, .block_title {
     height: 50%;
 }
 
