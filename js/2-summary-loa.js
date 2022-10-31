@@ -75,6 +75,10 @@ const mouseOutBlockThree = () => {
     titleThree.style.color = "black";
     }
 
+    blockThree.addEventListener('click', () => {
+        window.location.href = "5-warranty.html"
+    })
+
 /* Block Four "VOS OPTIONS" */
 
 const blockFour = document.querySelector('#block_four');

@@ -1,0 +1,224 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url(//db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro);
+@font-face {font-family: "BMWTypeNext Pro"; src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot"); src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All);
+@font-face {font-family: "BMW Type Global Pro Bold"; src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot"); src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff") format("woff"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold") format("svg"); }
+
+
+/* HEADER AND IMG */
+
+.parent {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    padding: 0;
+}
+
+.img_presentation {
+    width: 100%;
+    height: 400px;
+}
+
+.ombrage_presentation {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rowflex {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+}
+
+.child1 {
+    padding-left: 70px;
+ }
+ 
+ .logo_title {
+     width: 77%;
+ }
+ 
+ .child2 {
+     padding-right: 47px;
+ }
+ 
+ .logo {
+     width: 70%
+ }
+
+ .block_presentation-header {
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    margin: auto;
+}
+
+.block_icon_umbrella {
+    width: 15%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.block_title {
+    font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
+    width: 85%;
+    color: white;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.block_title > h2 {
+    color: #0066B1;
+}
+
+/* MAIN */
+
+.main {
+    min-height: 320px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
+    font-weight: none;
+}
+
+.block_collapse_one, .block_collapse_two {
+    position: relative;
+    background: #C7C7C7;
+    border: 1px solid #707070;
+}
+
+.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor {
+    position: relative;
+    background: #0066B1;
+    border: 1px solid #707070;
+    color: white;
+}
+
+.block_collapse > p {
+   padding-right: 28px;
+   margin: 16px 0;
+   text-align: center;
+   color: white;
+}
+
+#svg-arrow-one, #svg-arrow-two {
+    position: absolute;
+    top: 5;
+    right: 3%;
+    transform: rotate(-90deg);
+    transition: all 0.6s;
+}
+
+#svg-arrow-one.active, #svg-arrow-two.active {
+    transform: rotate(0deg);
+}
+
+.card {
+    padding: 0;
+    border: none;
+    width: 99%;
+}
+
+.padding_block_paragraph {
+    padding-left: 36px;
+    width: 99%;
+}
+
+h3 {
+    font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
+    color: #0066B1;
+}
+
+.puce {
+    list-style: none;
+}
+
+.ligne {
+    width: 93%;
+    margin-right: 5%;
+    height: 1px;
+    background-color: #999999;
+    opacity: 1;
+}
+
+.block_avantages_paragraph {
+    width: 80%;
+}
+
+.img-hommes-clé {
+    width: 95%;
+    height: 100%;
+}
+
+.block_space {
+    padding: 0 2px 0 2px;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #707070;
+}
+
+.border_table {
+    border: 1px solid #707070;
+   
+}
+
+.background-grey {
+    background-color: #EEEEEE;
+}
+
+.svg_margin_top {
+    margin-top: 35px;
+}
+
+
+ /* FOOTER */
+
+footer {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background: #B3B3B3;
+    border: 1px solid #707070;
+}
+
+.copyright {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 58px ;    
+}
+
+.paragraph-footer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.link-footer {
+    padding-right: 15px;
+    text-decoration: none;
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
