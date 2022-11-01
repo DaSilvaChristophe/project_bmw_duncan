@@ -128,6 +128,10 @@ const mouseOutBlockFive = () => {
     titleFive.style.color = "black";
     }
 
+blockFive.addEventListener('click', () => {
+        window.location.href = "6-contacts.html"
+})
+
 /* Block Six "RACHAT DE VOTRE VÉHICULE EN COURS DE CONTRAT" */
 
 const blockSix = document.querySelector('#block_six');
