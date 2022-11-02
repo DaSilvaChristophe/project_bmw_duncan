@@ -71,7 +71,7 @@ html, body {
     margin: auto;
 }
 
-.block_icon_contact {
+.block_icon_accident {
     width: 15%;
     padding-bottom: 30px;
     padding-left: 30px;
@@ -92,56 +92,23 @@ html, body {
 
 /* MAIN */
 
+.main {
+    min-height: 320px;
+}
+
 .uppercase {
     text-transform: uppercase;
     font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
     font-weight: none;
 }
 
-.block_contact {
-    height: 250px;
-    padding: 0 2px 0 2px;
-}
-
-.background-grey {
-    background-color: #EEEEEE;
-}
-
-.background-and-padding {
-    padding-bottom: 65px;
-    background-color: #EEEEEE;
-}
-
-.height40 {
-    height: 40%;
-}
-
-.height60 {
-    height: 60%;
-}
-
-.height30 {
-    height: 30%;
-}
-
-.height70 {
-    height: 70%;
-}
-
-.width60 {
-    width: 58%;
-}
-
-.block_collapse_one, .block_collapse_two, .block_collapse_three, .block_collapse_four, .block_collapse_five,
-.block_collapse_six, .block_collapse_seven, .block_collapse_eight, .block_collapse_nine, .block_collapse_ten {
+.block_collapse_one, .block_collapse_two {
     position: relative;
     background: #C7C7C7;
     border: 1px solid #707070;
 }
 
-.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor, .block_collapse_three.backgroundColor, .block_collapse_four.backgroundColor,
-.block_collapse_five.backgroundColor, .block_collapse_six.backgroundColor, .block_collapse_seven.backgroundColor, .block_collapse_eight.backgroundColor,
-.block_collapse_nine.backgroundColor, .block_collapse_ten.backgroundColor {
+.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor {
     position: relative;
     background: #0066B1;
     border: 1px solid #707070;
@@ -149,45 +116,60 @@ html, body {
 }
 
 .block_collapse > p {
-   padding-left: 25px;
+   padding-right: 28px;
    margin: 16px 0;
+   text-align: center;
+   color: white;
 }
 
-#svg-arrow-one, #svg-arrow-two, #svg-arrow-three, #svg-arrow-four, #svg-arrow-five, 
-#svg-arrow-six, #svg-arrow-seven, #svg-arrow-eight, #svg-arrow-nine, #svg-arrow-ten {
+#svg-arrow-one, #svg-arrow-two {
     position: absolute;
     top: 5;
     right: 3%;
-    transform: rotate(0deg);
+    transform: rotate(-90deg);
     transition: all 0.6s;
 }
 
-#svg-arrow-one.active, #svg-arrow-two.active, #svg-arrow-three.active, #svg-arrow-four.active,
-#svg-arrow-five.active, #svg-arrow-six.active, #svg-arrow-seven.active, #svg-arrow-eight.active,
-#svg-arrow-nine.active, #svg-arrow-ten.active {
-    transform: rotate(180deg);
+#svg-arrow-one.active, #svg-arrow-two.active {
+    transform: rotate(0deg);
 }
 
 .card {
+    padding: 0;
     border: none;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
+    width: 99%;
 }
 
-.img-ordinateur-BMW {
-    width: 95%;
-    height: 100%;
+.padding_block_paragraph {
+    padding-left: 36px;
+    width: 99%;
+}
+
+button {
+    background-color: #0066B1;
+    border: none;
 }
 
 .ligne {
     width: 93%;
+    margin-right: 5%;
     height: 1px;
     background-color: #999999;
     opacity: 1;
 }
 
+.test {
+    padding: 0;
+}
+
+.block_avantages_paragraph {
+    width: 80%;
+}
+
 .block_infos {
+    width: 100%;
+    padding: 0;
+    margin: auto;
     height: 60px;
     background: #0066B1;
     border: 1px solid #707070;

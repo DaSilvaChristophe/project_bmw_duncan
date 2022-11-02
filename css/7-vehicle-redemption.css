@@ -63,7 +63,7 @@ html, body {
 
  .block_presentation-header {
     position: absolute;
-    width: 50%;
+    width: 100%;
     height: 400px;
     top: 0;
     left: 0;
@@ -71,15 +71,15 @@ html, body {
     margin: auto;
 }
 
-.block_icon_contact {
-    width: 15%;
+.block_icon_vehicle {
+    width: 7%;
     padding-bottom: 30px;
     padding-left: 30px;
 }
 
 .block_title {
     font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
-    width: 85%;
+    width: 93%;
     color: white;
     padding-bottom: 20px;
     text-transform: uppercase;
@@ -92,111 +92,107 @@ html, body {
 
 /* MAIN */
 
+.main {
+    min-height: 550px;
+}
+
 .uppercase {
     text-transform: uppercase;
     font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
     font-weight: none;
 }
 
-.block_contact {
-    height: 250px;
-    padding: 0 2px 0 2px;
-}
+.block_principal_one, .block_principal_two, .block_principal_three, .block_principal_four {
+    min-height: 200px;
+ }
 
-.background-grey {
-    background-color: #EEEEEE;
-}
+ .block_principal_one.active, .block_principal_two.active,
+ .block_principal_three.active, .block_principal_four.active {
+    min-height: 100px;
+ }
 
-.background-and-padding {
-    padding-bottom: 65px;
-    background-color: #EEEEEE;
-}
+ .block_principal_one.active > span, .block_principal_two.active > span,
+ .block_principal_three.active > span, .block_principal_four.active > span {
+    color: white;
+ }
 
-.height40 {
-    height: 40%;
-}
+ .block_principal > span {
+    position: absolute;
+    top: 0;
+    left: 6%;
+    font-size: 1.5em;
+    margin: 16px 0;
+    text-align: center;
+    color: black;
+ }
 
-.height60 {
-    height: 60%;
-}
+ #path7151.active, #_svg_magnifier.active {
+    fill: white;
+ }
 
-.height30 {
-    height: 30%;
-}
+ #path111027-8.active {
+    fill: white;
+ }
 
-.height70 {
-    height: 70%;
-}
+ #path8094.active {
+    fill: white;
+ }
 
-.width60 {
-    width: 58%;
-}
+ #path2987-2.active {
+    fill: white;
+ }
 
-.block_collapse_one, .block_collapse_two, .block_collapse_three, .block_collapse_four, .block_collapse_five,
-.block_collapse_six, .block_collapse_seven, .block_collapse_eight, .block_collapse_nine, .block_collapse_ten {
+ .block_collapse_one, .block_collapse_two, .block_collapse_three, .block_collapse_four {
     position: relative;
     background: #C7C7C7;
-    border: 1px solid #707070;
 }
 
-.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor, .block_collapse_three.backgroundColor, .block_collapse_four.backgroundColor,
-.block_collapse_five.backgroundColor, .block_collapse_six.backgroundColor, .block_collapse_seven.backgroundColor, .block_collapse_eight.backgroundColor,
-.block_collapse_nine.backgroundColor, .block_collapse_ten.backgroundColor {
+ .block_collapse_one.active, .block_collapse_two.active,
+ .block_collapse_three.active, .block_collapse_four.active {
+    min-height: 150px;
+ }
+
+.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor,
+.block_collapse_three.backgroundColor, .block_collapse_four.backgroundColor {
     position: relative;
     background: #0066B1;
-    border: 1px solid #707070;
     color: white;
 }
 
-.block_collapse > p {
-   padding-left: 25px;
-   margin: 16px 0;
+.block_collapse.active {
+    height: 360px;
 }
 
-#svg-arrow-one, #svg-arrow-two, #svg-arrow-three, #svg-arrow-four, #svg-arrow-five, 
-#svg-arrow-six, #svg-arrow-seven, #svg-arrow-eight, #svg-arrow-nine, #svg-arrow-ten {
+.div_invisible_one, .div_invisible_two, .div_invisible_three, .div_invisible_four {
+    display: none;
+}
+
+.div_invisible_one.active, .div_invisible_two.active,
+.div_invisible_three.active, .div_invisible_four.active {
+    display: block;
+}
+
+.asterisque {
+    font-size: 0.8em;
+}
+
+#svg-arrow-one, #svg-arrow-two, #svg-arrow-three, #svg-arrow-four {
     position: absolute;
-    top: 5;
-    right: 3%;
+    bottom: 7%;
+    right: 45%;
     transform: rotate(0deg);
     transition: all 0.6s;
 }
 
-#svg-arrow-one.active, #svg-arrow-two.active, #svg-arrow-three.active, #svg-arrow-four.active,
-#svg-arrow-five.active, #svg-arrow-six.active, #svg-arrow-seven.active, #svg-arrow-eight.active,
-#svg-arrow-nine.active, #svg-arrow-ten.active {
+#svg-arrow-one.active, #svg-arrow-two.active, 
+#svg-arrow-three.active, #svg-arrow-four.active {
     transform: rotate(180deg);
 }
 
 .card {
+    padding: 0;
     border: none;
-    flex-direction: row;
-    justify-content: start;
-    align-items: center;
-}
-
-.img-ordinateur-BMW {
-    width: 95%;
-    height: 100%;
-}
-
-.ligne {
-    width: 93%;
-    height: 1px;
-    background-color: #999999;
-    opacity: 1;
-}
-
-.block_infos {
-    height: 60px;
-    background: #0066B1;
-    border: 1px solid #707070;
-}
-
-.block_infos > div > p {
-   color: white;
-   padding-left: 20px;
-   margin: 0;
+    width: 99%;
 }
 
  /* FOOTER */

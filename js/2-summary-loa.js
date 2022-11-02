@@ -136,19 +136,44 @@ blockFive.addEventListener('click', () => {
 
 const blockSix = document.querySelector('#block_six');
 const titleSix = document.querySelector('.title_six');
+const svgVehiclePartOne = document.querySelector('#Tracé_7');
+const svgVehiclePartTwo = document.querySelector('#Tracé_14');
+const svgVehiclePartThree = document.querySelector('#Tracé_15');
+const svgVehiclePartFour = document.querySelector('#Tracé_16');
+const svgVehiclePartFive = document.querySelector('#Tracé_12');
+const svgVehiclePartSix = document.querySelector('#Tracé_13');
+const svgVehicleOpacity = document.querySelector('.svg-vehicle');
 
 
 const mouseOverBlockSix = () => {
     blockSix.style.background = "#0066B1";
     blockSix.style.opacity = "1";
     titleSix.style.color = "#fff";
+    svgVehiclePartOne.style.fill = "#fff";
+    svgVehiclePartTwo.style.fill = "#4a4a49";
+    svgVehiclePartThree.style.fill = "#4a4a49";
+    svgVehiclePartFour.style.fill = "#4a4a49";
+    svgVehiclePartFive.style.fill = "#fff";
+    svgVehiclePartSix.style.fill = "#fff";
+    svgVehicleOpacity.style.opacity= "1";
     }
 
 const mouseOutBlockSix = () => {
     blockSix.style.background = "white";
     blockSix.style.opacity = "0.85";
     titleSix.style.color = "black";
+    svgVehiclePartOne.style.fill = "#4a4a49";
+    svgVehiclePartTwo.style.fill = "#fff";
+    svgVehiclePartThree.style.fill = "#fff";
+    svgVehiclePartFour.style.fill = "#fff";
+    svgVehiclePartFive.style.fill = "#4a4a49";
+    svgVehiclePartSix.style.fill = "#4a4a49";
+    svgVehicleOpacity.style.opacity= "0.7";
     }
+
+blockSix.addEventListener('click', () => {
+        window.location.href = "7-vehicle-redemption.html"
+})
 
 /* Block Seven "LA FIN DE VOTRE CONTRAT" */
 
@@ -207,3 +232,7 @@ const mouseOutBlockEight = () => {
     svgAccidentOpacity.style.opacity= "0.5";
     titleEight.style.color = "black";
     }
+
+blockEight.addEventListener('click', () => {
+    window.location.href = "9-sinister.html"
+})
