@@ -1,3 +1,24 @@
+/* Menu */
+
+const check = () => {
+    const divLogo = document.querySelector('.rowflex');
+    const imgPresentation = document.querySelector('.img_presentation');
+    const input = document.querySelector('.checkbox-one').checked;
+    const navBar = document.querySelector('.navbar');
+
+    if (input === true) {
+        imgPresentation.style.position = "static";
+        divLogo.style.opacity = "0";
+        navBar.style.borderBottom = "3px solid rgb(146 161 176 / 100%)";
+        navBar.style.boxShadow = "0px 15px 10px -15px";        
+    } else {
+        imgPresentation.style.position = "absolute";
+        divLogo.style.opacity= "1";
+        navBar.style.borderBottom = "none";
+        navBar.style.boxShadow = "none";
+        }
+}
+
 /* Block One "LES AVANTAGES DE VOTRE CONTRAT" */
 
 const blockOne = document.querySelector('#block_one');
@@ -236,3 +257,6 @@ const mouseOutBlockEight = () => {
 blockEight.addEventListener('click', () => {
     window.location.href = "9-sinister.html"
 })
+
+
+
