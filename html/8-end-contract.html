@@ -9,10 +9,40 @@
     <link href="//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/8-end-contract.css">
+    <link rel="stylesheet" href="../css/responsive/8-end-contract-responsive.css">
     <title>La fin de votre contrat - BMW Financial Services</title>
 </head>
 <body>
     <header class="container-fluid parent">
+      <nav>
+        <div class="navbar">
+          <div class="container-fluid nav-container">
+              <input onclick="check()" class="checkbox-one" type="checkbox" name="" id="" />
+              <div class="circle">
+                <div class="hamburger-lines">
+                  <span class="line line1"></span>
+                  <span class="line line2"></span>
+                  <span class="line line3"></span>
+                </div>
+              </div>
+            <div class="title_menu">
+              <h5>Menu</h5>
+            </div>
+            <div class="menu-items">
+              <svg class="cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="2-summary-loa.html">Sommaire LOA</a></li>
+              <li><a href="3-avantages-contract.html">Avantages contrat</a></li>
+              <li><a href="4-services.html">Services</a></li>
+              <li><a href="5-warranty.html">Garanties</a></li>
+              <li><a href="#">Options</a></li>
+              <li><a href="6-contacts.html">Contacts et démarches</a></li>
+              <li><a href="7-vehicle-redemption.html">Rachat de véhicule</a></li>
+              <li><a href="9-sinister.html">Sinistre</a></li>
+            </div>
+          </div>
+        </div>
+      </nav>
         <img class="img_presentation" src="../assets/img/concessionnaire_BMW.png" alt="main serré concessionnaire BMW">
         <img class="ombrage_presentation" src="../assets/img/Rectangle_ombrage_2.png" alt="ombrage">
         <div class="rowflex d-flex justify-content-between">
@@ -52,45 +82,54 @@
             </div>
         </div>  
     </header>
-    <main>
+    <main class="block_presentation_main">
         <div class="div-paragraph mt-4">
             <p class="paragraph"><strong>Vous souhaitez devenir propriétaire de votre BMW ? L'option d'achat sera prélevée sur votre compte bancaire le dernier jour de votre contrat.</strong> <br>
                 Suivez les étapes ci-dessous :
             </p>
         </div>
         <div class="row d-flex mx-auto">
-            <div class="col-3 block_presentation_circles d-flex justify-content-end">
+            <div class="col-2 col-lg-3 block_presentation_circles d-flex justify-content-end">
                 <svg id="ligne-dashed-one" xmlns="http://www.w3.org/2000/svg" width="3" height="40" viewBox="0 0 3 55">
                     <line id="Ligne_2" data-name="Ligne 2" y2="55" transform="translate(1.5)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="6 6"/>
                 </svg>
-                <svg id="svg-two-circles" xmlns="http://www.w3.org/2000/svg" width="37.917" height="179.366" viewBox="0 0 57.917 229.366">
-                    <g data-name="Groupe 23" transform="translate(1496.029 -172.983) rotate(90)">
-                    <circle data-name="Ellipse 1" cx="14.944" cy="14.944" r="14.944" transform="translate(186.722 1451.852)" fill="#354954"/>
-                    <path data-name="Tracé 27" d="M201.666,729.368a28.684,28.684,0,1,1,28.683-28.684A28.716,28.716,0,0,1,201.666,729.368Zm0-52.241a23.558,23.558,0,1,0,23.558,23.557A23.584,23.584,0,0,0,201.666,677.127Z" transform="translate(0 766.661)" fill="#354954"/>
-                    <circle data-name="Ellipse 26" cx="14.944" cy="14.944" r="14.944" transform="translate(358.722 1451.834)" fill="#0066b1"/>
-                    <path data-name="Tracé 36" d="M201.666,561.939a28.684,28.684,0,1,1,28.683-28.683A28.715,28.715,0,0,1,201.666,561.939Zm0-52.241a23.558,23.558,0,1,0,23.558,23.558A23.584,23.584,0,0,0,201.666,509.7Z" transform="translate(172 933.54)" fill="#0066b1"/>
-                    <circle data-name="Ellipse 1" cx="14.944" cy="14.944" r="14.944" transform="translate(186.722 1451.852)" fill="#354954"/>
-                    </g>
+                <svg id="svg-circle-lign-one" xmlns="http://www.w3.org/2000/svg" width="37.917" height="179.366" viewBox="0 0 57.917 229.366">
+                  <g id="Groupe_23" data-name="Groupe 23" transform="translate(1496.029 -172.983) rotate(90)">
+                  <circle id="Ellipse_1" data-name="Ellipse 1" cx="14.944" cy="14.944" r="14.944" transform="translate(186.722 1451.852)" fill="#354954"/>
+                  <path id="Tracé_27" data-name="Tracé 27" d="M201.666,729.368a28.684,28.684,0,1,1,28.683-28.684A28.716,28.716,0,0,1,201.666,729.368Zm0-52.241a23.558,23.558,0,1,0,23.558,23.557A23.584,23.584,0,0,0,201.666,677.127Z" transform="translate(0 766.661)" fill="#354954"/>
+                  </g>
+                </svg>  
+                <svg id="ligne-dashed-one" xmlns="http://www.w3.org/2000/svg" width="3" height="40" viewBox="0 0 3 55">
+                  <line id="Ligne_2" data-name="Ligne 2" y2="55" transform="translate(1.5)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="6 6"/>
                 </svg>
                 <svg id="ligne-dashed-two" xmlns="http://www.w3.org/2000/svg" width="3" height="92.184" viewBox="0 0 3 118.184">
                     <line data-name="Ligne 3" y2="118.184" transform="translate(1.5)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="6 6"/>
                 </svg>
+                <svg id="svg-circle-lign-two" xmlns="http://www.w3.org/2000/svg" width="37.917" height="179.366" viewBox="0 0 57.917 229.366">
+                  <g id="Groupe_23" data-name="Groupe 23" transform="translate(1496.029 -172.983) rotate(90)">
+                  <circle id="Ellipse_1" data-name="Ellipse 1" cx="14.944" cy="14.944" r="14.944" transform="translate(186.722 1451.852)" fill="#0066b1"/>
+                  <path id="Tracé_27" data-name="Tracé 27" d="M201.666,729.368a28.684,28.684,0,1,1,28.683-28.684A28.716,28.716,0,0,1,201.666,729.368Zm0-52.241a23.558,23.558,0,1,0,23.558,23.557A23.584,23.584,0,0,0,201.666,677.127Z" transform="translate(0 766.661)" fill="#0066b1"/>
+                  </g>
+                </svg> 
                 <svg id="ligne-dashed-three" xmlns="http://www.w3.org/2000/svg" width="3" height="92.184" viewBox="0 0 3 118.184">
                     <line id="Ligne_3" data-name="Ligne 3" y2="118.184" transform="translate(1.5)" fill="none" stroke="#707070" stroke-width="3" stroke-dasharray="6 6"/>
                 </svg>              
-                <svg id="svg-alone-circle" xmlns="http://www.w3.org/2000/svg" width="37.917" height="179.366" viewBox="0 0 57.917 229.366">
+                <svg id="svg-circle-lign-three" xmlns="http://www.w3.org/2000/svg" width="37.917" height="179.366" viewBox="0 0 57.917 229.366">
                     <g id="Groupe_23" data-name="Groupe 23" transform="translate(1496.029 -172.983) rotate(90)">
                     <circle id="Ellipse_1" data-name="Ellipse 1" cx="14.944" cy="14.944" r="14.944" transform="translate(186.722 1451.852)" fill="#7b7f82"/>
                     <path id="Tracé_27" data-name="Tracé 27" d="M201.666,729.368a28.684,28.684,0,1,1,28.683-28.684A28.716,28.716,0,0,1,201.666,729.368Zm0-52.241a23.558,23.558,0,1,0,23.558,23.557A23.584,23.584,0,0,0,201.666,677.127Z" transform="translate(0 766.661)" fill="#7b7f82"/>
                     </g>
                 </svg>                          
             </div>
-            <div class="col-9 block_presentation_infos d-flex flex-column">
-                <div onmouseover="mouseOverBlockOne()" onmouseout="mouseOutBlockOne()" class="border block_infos_one d-flex align-items-center justify-content-center">
-                    <p class="py-2">Faites-nous parvenir, entre 10 jours et 2 mois après la fin de <br>
-                        votre contrat, votre certificat d’immatriculation original et en <br>
+            <div class="col-10 col-lg-9 block_presentation_infos d-flex flex-column">
+              <div onmouseover="mouseOverBlockOne()" onmouseout="mouseOutBlockOne()" class="border block_infos_one d-flex align-items-center justify-content-center">
+                    <p class="py-2">Faites-nous parvenir, entre 10 jours et 2 mois après la fin de
+                        votre contrat, votre certificat d’immatriculation original et en
                         conserver une copie ainsi que le coupon détachable. 
                     </p>
+                    <svg id="svg-repo" xmlns="http://www.w3.org/2000/svg" width="45.157" height="34.75" viewBox="0 0 55.157 44.75">
+                      <path id="path4224" d="M348.89,60.25a4.332,4.332,0,0,0-4.531,4.531c0,.21,0,34.375,0,34.375a2.942,2.942,0,0,0,3.031,3.219,2.994,2.994,0,0,0,3.031-3.219V75.125a4.514,4.514,0,0,1,4.625-4.531h39.282v-1.5a5.041,5.041,0,0,0-4.563-4.782H370.078c-2.838-.284-5.877-4.062-9.094-4.062Zm9.469,14.281a3.961,3.961,0,0,0-3.844,3.5V99.187c0,4.355-4.344,5.813-4.344,5.813h45a4.632,4.632,0,0,0,4.344-4.344V78.875a4.191,4.191,0,0,0-4.25-4.344Z" transform="translate(-344.358 -60.25)" fill="#354954"/>
+                  </svg>    
                 </div>
                 <svg onmouseover="mouseOverBlockOne()" onmouseout="mouseOutBlockOne()" id="svg-circle-one" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.241" height="122.551" viewBox="0 0 220.241 162.551">
                     <defs>
@@ -108,22 +147,23 @@
                     <g id="Groupe_29" data-name="Groupe 29" transform="translate(-270.768 -621.583)">
                       <ellipse id="Ellipse_24" data-name="Ellipse 24" cx="81.223" cy="81.276" rx="81.223" ry="81.276" transform="translate(328.563 621.583)" fill="#354954"/>
                       <g id="Groupe_28" data-name="Groupe 28">
+                        <path  d="M348.89,60.25a4.332,4.332,0,0,0-4.531,4.531c0,.21,0,34.375,0,34.375a2.942,2.942,0,0,0,3.031,3.219,2.994,2.994,0,0,0,3.031-3.219V75.125a4.514,4.514,0,0,1,4.625-4.531h39.282v-1.5a5.041,5.041,0,0,0-4.563-4.782H370.078c-2.838-.284-5.877-4.062-9.094-4.062Zm9.469,14.281a3.961,3.961,0,0,0-3.844,3.5V99.187c0,4.355-4.344,5.813-4.344,5.813h45a4.632,4.632,0,0,0,4.344-4.344V78.875a4.191,4.191,0,0,0-4.25-4.344Z" transform="translate(-344.358 -60.25)" fill="#354954"/>
                         <ellipse id="Ellipse_25" data-name="Ellipse 25" cx="61.372" cy="61.412" rx="61.372" ry="61.412" transform="translate(348.208 641.15)" fill="url(#radial-gradient)"/>
                         <path id="Tracé_34" data-name="Tracé 34" d="M409.579,631.324a71.238,71.238,0,1,0,71.191,71.238A71.215,71.215,0,0,0,409.579,631.324Zm0,132.649a61.412,61.412,0,1,1,61.372-61.411A61.391,61.391,0,0,1,409.579,763.973Z" fill="#fff"/>
-                      <path id="Tracé_35" data-name="Tracé 35" d="M314.45,683.633s-5.247,17.09,0,42.264l-43.682-21.682Z" fill="#354954"/>
+                        <path id="Tracé_35" data-name="Tracé 35" d="M314.45,683.633s-5.247,17.09,0,42.264l-43.682-21.682Z" fill="#354954"/>
                       </g>
                     </g>
                 </svg>
                 <svg id="svg-repo" xmlns="http://www.w3.org/2000/svg" width="45.157" height="34.75" viewBox="0 0 55.157 44.75">
-                    <path id="path4224" d="M348.89,60.25a4.332,4.332,0,0,0-4.531,4.531c0,.21,0,34.375,0,34.375a2.942,2.942,0,0,0,3.031,3.219,2.994,2.994,0,0,0,3.031-3.219V75.125a4.514,4.514,0,0,1,4.625-4.531h39.282v-1.5a5.041,5.041,0,0,0-4.563-4.782H370.078c-2.838-.284-5.877-4.062-9.094-4.062Zm9.469,14.281a3.961,3.961,0,0,0-3.844,3.5V99.187c0,4.355-4.344,5.813-4.344,5.813h45a4.632,4.632,0,0,0,4.344-4.344V78.875a4.191,4.191,0,0,0-4.25-4.344Z" transform="translate(-344.358 -60.25)" fill="#354954"/>
-                </svg>                                   
-                <div onmouseover="mouseOverBlockTwo()" onmouseout="mouseOutBlockTwo()" class="border block_infos_two d-flex align-items-center justify-content-center">
-                    <p class="py-2">Le certificat d’immatriculation original est à envoyer <br>
+                  <path id="path4224" d="M348.89,60.25a4.332,4.332,0,0,0-4.531,4.531c0,.21,0,34.375,0,34.375a2.942,2.942,0,0,0,3.031,3.219,2.994,2.994,0,0,0,3.031-3.219V75.125a4.514,4.514,0,0,1,4.625-4.531h39.282v-1.5a5.041,5.041,0,0,0-4.563-4.782H370.078c-2.838-.284-5.877-4.062-9.094-4.062Zm9.469,14.281a3.961,3.961,0,0,0-3.844,3.5V99.187c0,4.355-4.344,5.813-4.344,5.813h45a4.632,4.632,0,0,0,4.344-4.344V78.875a4.191,4.191,0,0,0-4.25-4.344Z" transform="translate(-344.358 -60.25)" fill="#354954"/>
+                </svg>                           
+                <div onclick="testclick()" onmouseover="mouseOverBlockTwo()" onmouseout="mouseOutBlockTwo()" class="border block_infos_two d-flex align-items-center justify-content-center">
+                    <p class="py-2">Le certificat d’immatriculation original est à envoyer
                         à l’adresse suivante : 
                         <strong>BMW Finance TSA 36646 <br> 91097 COURCOURONNES CEDEX</strong>.
                     </p>
                 </div>
-                <svg onmouseover="mouseOverBlockTwo()" onmouseout="mouseOutBlockTwo()" id="svg-circle-two" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.241" height="122.551" viewBox="0 0 220.241 162.551">
+                <svg onclick="testclick()" onmouseover="mouseOverBlockTwo()" onmouseout="mouseOutBlockTwo()" id="svg-circle-two" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="180.241" height="122.551" viewBox="0 0 220.241 162.551">
                     <defs>
                       <radialGradient  cx="0.5" cy="0.5" r="0.544" gradientTransform="translate(0 0)" gradientUnits="objectBoundingBox">
                         <stop offset="0.813" stop-color="#fff"/>
@@ -145,13 +185,13 @@
                       </g>
                     </g>
                 </svg>
-                <svg id="svg-envelope" xmlns="http://www.w3.org/2000/svg" width="42.375" height="28" viewBox="0 0 58.375 38">
+                <svg onclick="testclick()" id="svg-envelope" xmlns="http://www.w3.org/2000/svg" width="42.375" height="28" viewBox="0 0 58.375 38">
                     <path id="path8094" d="M247.529,67l22.844,21.125a11.607,11.607,0,0,0,2,1.562,3.918,3.918,0,0,0,1.906.563,4.031,4.031,0,0,0,1.938-.563,11.489,11.489,0,0,0,1.969-1.562L301.03,67h-53.5Zm-2.437,2.031v33.813l19.219-16.125L245.092,69.031Zm58.375,0L284.279,86.719l19.188,16.125ZM266.592,88.906,247.436,105h53.688L282,88.906,280.217,90.5a13.206,13.206,0,0,1-2.5,1.906,6.582,6.582,0,0,1-6.875,0,13.172,13.172,0,0,1-2.5-1.906Z" transform="translate(-245.092 -67)" fill="#0066b1"/>
                 </svg>              
                 <div onmouseover="mouseOverBlockThree()" onmouseout="mouseOutBlockThree()" class="border block_infos_three d-flex align-items-center justify-content-center">
-                    <p class="py-2">Nous vous enverrons le certificat d’immatriculation barré <br>
-                        et tamponné ainsi qu'un certificat de cession établi à votre <br>
-                        nom afin de vous permettre d'effectuer les démarches nécessaires <br> 
+                    <p class="py-2">Nous vous enverrons le certificat d’immatriculation barré
+                        et tamponné ainsi qu'un certificat de cession établi à votre
+                        nom afin de vous permettre d'effectuer les démarches nécessaires 
                         pour le changement de propriétaire sur le site de l'ANTS.
                     </p>
                 </div>
@@ -183,15 +223,15 @@
             </div>
         </div>
     </main>
-    <footer>
-        <div class="col-6">
-            <p class="copyright">BMW France 2022</p>
-        </div>
-        <div class="col-6 d-flex justify-content-end">
-            <a class="link-footer" href=""><p class="paragraph-footer">Contact</p></a>
-            <a class="link-footer" href=""><p class="paragraph-footer">Mentions Légales Assurances</p></a>
-            <a class="link-footer" href=""><p class="paragraph-footer">Mentions Légales Services</p></a>
-        </div>
+    <footer class="responsive_footer">
+      <div class="flex_copyright col-6">
+          <p class="copyright">BMW France 2022</p>
+      </div>
+      <div class="block_link_footer col-8 col-sm-6">
+          <a class="link-footer" href=""><p class="paragraph-footer">Contact</p></a>
+          <a class="link-footer" href=""><p class="paragraph-footer">Mentions Légales Assurances</p></a>
+          <a class="link-footer" href=""><p class="paragraph-footer">Mentions Légales Services</p></a>
+      </div>
     </footer>
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>

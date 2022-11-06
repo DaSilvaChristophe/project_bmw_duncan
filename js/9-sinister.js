@@ -56,6 +56,14 @@ rotateArrowTwo.addEventListener('click', (event) => {
     blockCollapseOpenedTwo.style.transition = "0.2s ease-in-out 0s";
 })
 
+/* Button Contact Mail */
+
+const redirectMail = document.querySelector('button');
+
+redirectMail.addEventListener('click', () => {
+    window.location.href = "mailto:contact-finance@bmw.fr"
+})
+
 /* Menu */
 
 const check = () => {
@@ -93,14 +101,6 @@ const check = () => {
         } 
     }
 }
-
-/* Button Contact Mail */
-
-const redirectMail = document.querySelector('button');
-
-redirectMail.addEventListener('click', () => {
-    window.location.href = "mailto:contact-finance@bmw.fr"
-})
 
 /* Chargement de Page */
 

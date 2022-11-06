@@ -28,25 +28,12 @@ html, body {
     left: 0;
 }
 
-.img_presentation_responsive {
-    display: none;
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .ombrage_presentation {
     width: 100%;
     height: 400px;
     position: absolute;
     top: 0;
     left: 0;
-}
-
-.ombrage_responsive {
-    display: none;
 }
 
 .rowflex {
@@ -195,7 +182,6 @@ button {
     margin: auto;
     height: 75px;
     background: #0066B1;
-    border: 1px solid #707070;
 }
 
 .block_infos > div > p {
@@ -222,7 +208,6 @@ footer {
     display: flex;
     align-items: center;
     background: #E6E6E6;
-    border: 1px solid #707070;
 }
 
 .copyright {
@@ -247,255 +232,4 @@ footer {
     color: black;
     pointer-events: none;
     cursor: default;
-}
-
-/* Média Queries / Responsive */
-
-@media all and (min-width: 1130px) and (max-width: 1399px)
-{
-  .circle {
-    top: 17px;
-  }
-
-  .title_menu {
-    top: 35px;
-    right: 240px;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
-  }
-
-  .svg_infos {
-    width: 68px;
-    height: 68px;
-  }
-}
-
-@media all and (min-width: 993px) and (max-width: 1130px)
-{
-  .circle {
-    top: 17px;
-  }
-  .title_menu {
-    top: 35px;
-    right: 225px;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
-    }
-
-  .svg_infos {
-    width: 68px;
-    height: 68px;
-  }
-}
-
-@media all and (min-width: 890px) and (max-width: 992px)
-{
-    .circle {
-      top: 17px;
-      right: 17%;
-    }
-
-    .nav-container .checkbox-one {
-        right: 17.3%;
-    }
-
-    .cross {
-        top: 5px;
-        right: 15.8%;    
-    }
-
-    .title_menu {
-      display: none;
-    }
-
-    .padding_block_paragraph {
-        padding-left: 0px;
-    }
-
-    .block_infos {
-        height: 95px;
-    }
-
-    .svg_infos {
-        width: 98px;
-        height: 98px;
-    }
-
-    .responsive_footer {
-        text-align: center;
-    }
-
-}
-
-@media all and (min-width: 769px) and (max-width: 890px)
-{
-    .circle {
-      top: 17px;
-      right: 19%;
-    }
-
-    .nav-container .checkbox-one {
-        right: 19.3%;
-    }
-
-    .cross {
-        top: 5px;
-        right: 17.8%;    
-    }
-    
-    .title_menu {
-        display: none;
-    }
-
-    .img_presentation {
-        object-fit: cover;
-    }
-
-    .padding_block_paragraph {
-        padding-left: 0px;
-    }
-
-    .block_infos {
-        height: 100px;
-    }
-
-    .svg_infos {
-        width: 98px;
-        height: 98px;
-    }
-
-    .responsive_footer {
-        text-align: center;
-    }
-}
-
-@media all and (min-width: 577px) and (max-width: 768px)
-{
-    .circle {
-        top: 17px;
-        left: 10%;
-    }
-  
-    .nav-container .checkbox-one {
-        left: 10.5%;
-    }
-  
-    .cross {
-        top: 5px;
-        left: 11.7%;    
-    }
-
-    .child2 {
-        display: flex;
-        justify-content: flex-end;
-    }
-      
-    .title_menu, .logo_title {
-        display: none;
-    }
-
-    .img_presentation {
-        height: 80%;
-        object-fit: cover;
-    }
-
-    .ombrage_presentation {
-        height: 80%;
-    }
-
-    .block_presentation-header {
-        height: 170px;
-        width: 100%;
-        top: 80%;
-    }
-
-    #Tracé_21, #Tracé_23, #Tracé_22 {
-        fill: #0066B1;
-    }
-    
-    .block_title {
-        width: 70%; 
-    }
-
-    .block_title > h2 {
-        color: #0066B1;
-        font-size: 1.6em;
-        padding-bottom: 20px;
-        margin-left: 5px;
-    }
-
-    .block_title > h1 {
-        color: black;
-        padding-bottom: 33px;
-        padding-left: 10px;
-    }
-
-    .block_container {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .block_collapse {
-        margin-top: 10px;
-    }
-
-    .padding_block_paragraph {
-        padding-left: 0px;
-    }
-  
-    .block_infos {
-        height: 200px;
-    }
-
-    .flex_infos {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-  
-    .svg_infos {
-        width: 48px;
-        height: 48px;
-        margin-bottom: 8px;
-    }
-  
-    footer {
-        height: 40%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: #E6E6E6;
-    }
-
-    .copyright {
-        padding-left: 0px ;
-        margin-top: 40px; 
-        margin-bottom: 0px;    
-    }
-
-    .flex_copyright {
-        display: flex;
-        justify-content: center;
-    }
-
-    .block_link_footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .link-footer {
-        margin-top: 20px;
-    }
-}
-
-@media all and (min-width: 374px) and (max-width: 576px)
-{
-   
 }

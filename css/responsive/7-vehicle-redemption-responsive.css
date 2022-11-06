@@ -1,0 +1,364 @@
+/* Média Queries / Responsive */
+
+
+@media all and (min-width: 1200px) and (max-width: 1399px)
+{
+  .circle {
+    top: 17px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 240px;
+  }
+}
+
+@media all and (min-width: 1130px) and (max-width: 1200px)
+{
+  .circle {
+    top: 17px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 240px;
+  }
+
+  .block_collapse.active {
+    height: 490px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+}
+
+@media all and (min-width: 993px) and (max-width: 1130px)
+{
+  .circle {
+    top: 17px;
+  }
+  .title_menu {
+    top: 35px;
+    right: 225px;
+  }
+
+  .block_icon_vehicle {
+    padding-left: 20px;
+  }
+
+  .block_collapse.active {
+    height: 490px;
+  }
+
+  footer {
+    margin-top: 50px;
+  }
+
+}
+
+@media all and (min-width: 890px) and (max-width: 992px)
+{
+    .circle {
+      top: 17px;
+      right: 17%;
+    }
+
+    .nav-container .checkbox-one {
+        right: 17.3%;
+    }
+
+    .cross {
+        top: 5px;
+        right: 15.8%;    
+    }
+
+    .title_menu {
+      display: none;
+    }
+
+    .block_icon_vehicle {
+        padding-left: 15px;
+    }
+
+    .block_collapse.active {
+        height: 490px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .responsive_footer {
+        text-align: center;
+    }
+
+
+}
+
+@media all and (min-width: 769px) and (max-width: 890px)
+{
+    .circle {
+      top: 17px;
+      right: 19%;
+    }
+
+    .nav-container .checkbox-one {
+        right: 19.3%;
+    }
+
+    .cross {
+        top: 5px;
+        right: 17.8%;    
+    }
+    
+    .title_menu {
+        display: none;
+    }
+
+    .block_icon_vehicle {
+        padding-left: 13px;
+    }
+
+    .img_presentation {
+        object-fit: cover;
+    }
+
+    .block_collapse.active {
+        height: 510px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .responsive_footer {
+        text-align: center;
+    }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px)
+{
+    .circle {
+        top: 17px;
+        left: 10%;
+    }
+  
+    .nav-container .checkbox-one {
+        left: 10.5%;
+    }
+  
+    .cross {
+        top: 7px;
+        left: 11.7%;    
+    }
+
+    .child2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+      
+    .title_menu, .logo_title {
+        display: none;
+    }
+
+    .img_presentation {
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .ombrage_presentation {
+        height: 80%;
+    }
+
+    .block_presentation-header {
+        height: 170px;
+        width: 100%;
+        top: 80%;
+        background-color: #E7E6E6;
+    }
+
+    .block_icon_vehicle {
+        width: 15%;
+        padding-left: 10px;
+    }
+
+    #Tracé_7, #Tracé_12, #Tracé_13 {
+        fill: #0066B1;
+    }
+
+    #Tracé_14, #Tracé_15, #Tracé_16 {
+        fill: #E7E6E6;;
+    }
+    
+    .block_title {
+        width: 70%;
+        padding-bottom: 0px;
+    }
+
+    .block_title > h2 {
+        color: #0066B1;
+        font-size: 1.6em;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .block_title > h1 {
+        color: black;
+        padding-bottom: 25px;
+        padding-left: 0px;
+    }
+
+    .block_presentation_main {
+        margin-top: 120px;
+    }
+  
+    footer {
+        margin-top: 50px;
+        height: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items:0center;
+        background: #E6E6E6;
+    }
+
+    .copyright {
+        padding-left: 0px ;
+        margin-top: 30px; 
+        margin-bottom: 0px;    
+    }
+
+    .flex_copyright {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block_link_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-footer {
+        margin-top: 15px;
+    }
+}
+
+@media all and (min-width: 374px) and (max-width: 576px)
+{
+    .circle {
+        top: 17px;
+        left: 10%;
+    }
+  
+    .nav-container .checkbox-one {
+        left: 10.5%;
+    }
+  
+    .cross {
+        top: 7px;
+        left: 11.7%;    
+    }
+
+    .child2 {
+        display: flex;
+        justify-content: flex-end;
+    }
+      
+    .title_menu, .logo_title {
+        display: none;
+    }
+
+    .img_presentation {
+        display: none;
+    }
+
+    .img_presentation_mobile {
+        display: block;
+        height: 80%;
+        width: 100%;
+    }
+
+    .ombrage_presentation {
+        display: none;
+    }
+
+    .ombrage_presentation_mobile {
+        display: block;
+        height: 15%;
+        width: 100%;
+    }
+
+    .block_presentation-header {
+        height: 170px;
+        width: 100%;
+        top: 80%;
+        background-color: #E7E6E6;
+    }
+
+    .block_icon_vehicle {
+        width: 15%;
+        padding-bottom: 30px;
+        padding-left: 12px;
+    }
+
+    #Tracé_7, #Tracé_12, #Tracé_13 {
+        fill: #0066B1;
+    }
+
+    #Tracé_14, #Tracé_15, #Tracé_16 {
+        fill: #E7E6E6;;
+    }
+    
+    .block_title {
+        width: 80%;
+        padding-bottom: 0px;
+    }
+
+    .block_title > h2 {
+        color: #0066B1;
+        font-size: 1.6em;
+        margin-left: 0px;
+    }
+
+    .block_title > h1 {
+        color: black;
+        padding-bottom: 20px;
+        padding-left: 0px;
+    }
+
+    .block_presentation_main {
+        margin-top: 120px;
+    }
+  
+    footer {
+        margin-top: 50px;
+        height: 31%;
+        display: flex;
+        flex-direction: column;
+        align-items:0center;
+        background: #E6E6E6;
+    }
+
+    .copyright {
+        padding-left: 0px ;
+        margin-top: 30px; 
+        margin-bottom: 0px;    
+    }
+
+    .flex_copyright {
+        display: flex;
+        justify-content: center;
+    }
+
+    .block_link_footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .link-footer {
+        margin-top: 15px;
+    }
+}

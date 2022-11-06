@@ -1,3 +1,4 @@
+const BlockPresentationMain = document.querySelector('.block_presentation_main');
 const rotateArrowOne = document.querySelector('#svg-arrow-one');
 const rotateArrowTwo = document.querySelector('#svg-arrow-two');
 const rotateArrowThree = document.querySelector('#svg-arrow-three');
@@ -20,6 +21,8 @@ const magnifierTwo = document.querySelector('#_svg_magnifier');
 const svgWrite = document.querySelector('#path111027-8');
 const envelopment =  document.querySelector('#path8094');
 const circleArrow =  document.querySelector('#path2987-2')
+
+boolBlockPresentationMain = true
 
 rotateArrowOne.addEventListener('click', (event) => {
     event.preventDefault();
@@ -81,3 +84,50 @@ rotateArrowFour.addEventListener('click', (event) => {
         blockCollapseFour[i].style.transition = "0.7s ease-in-out 0s";
     }
 })
+
+const check = () => {
+    const divLogo = document.querySelector('.rowflex');
+    const imgPresentation = document.querySelector('.img_presentation');
+    const ombragePresentation = document.querySelector('.ombrage_presentation');
+    const imgPresentationMobile = document.querySelector('.img_presentation_mobile');
+    const ombragePresentationMobile = document.querySelector('.ombrage_presentation_mobile');
+    const input = document.querySelector('.checkbox-one').checked;
+    const navBar = document.querySelector('.navbar');
+  
+    if (input === true) {
+        imgPresentation.style.position = "static";
+        ombragePresentation.style.display = "none";
+        ombragePresentationMobile.style.display = "none";
+        divLogo.style.opacity = "0";
+        navBar.style.borderBottom = "3px solid rgb(146 161 176 / 100%)";
+        navBar.style.boxShadow = "0px 15px 10px -15px";
+  
+        if(boolBlockPresentationMain === true) {
+            BlockPresentationMain.style.display = "none";
+            boolBlockPresentationMain = false
+        }
+
+        if (screen.width < 576) {
+            imgPresentationMobile.style.position = "static";
+            ombragePresentationMobile.style.display = "none";
+        }
+    } else {
+        imgPresentation.style.position = "absolute";
+        ombragePresentation.style.display = "block";
+        divLogo.style.opacity= "1";
+        navBar.style.borderBottom = "none";
+        navBar.style.boxShadow = "none";
+        
+        if(boolBlockPresentationMain === false) {
+            BlockPresentationMain.style.display = "block";
+            boolBlockPresentationMain = true
+        }
+
+        if (screen.width < 576) {
+            imgPresentationMobile.style.position = "absolute";
+            ombragePresentation.style.display = "none";
+            ombragePresentationMobile.style.display = "block";
+            ombragePresentation.style.display = "none";
+        }
+    }
+}

@@ -137,12 +137,6 @@ footer {
     display: flex;
     align-items: center;
     background: #E6E6E6;
-    border: 1px solid #707070;
-}
-
-.flex_footer {
-    display: flex;
-    justify-content: flex-end;
 }
 
 .copyright {
@@ -154,6 +148,11 @@ footer {
 .paragraph-footer {
     display: table-cell;
     vertical-align: middle;
+}
+
+.block_link_footer {
+    display: flex;
+    justify-content: end;
 }
 
 .link-footer {
