@@ -1,253 +1,302 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    box-sizing: border-box;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @import url(//db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro);
-@font-face {font-family: "BMWTypeNext Pro"; src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot"); src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro") format("svg"); }
+@font-face {
+  font-family: "BMWTypeNext Pro";
+  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot");
+  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro")
+      format("svg");
+}
 @import url(//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All);
-@font-face {font-family: "BMW Type Global Pro Bold"; src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot"); src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff") format("woff"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold") format("svg"); }
+@font-face {
+  font-family: "BMW Type Global Pro Bold";
+  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot");
+  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold")
+      format("svg");
+}
 
-
-/* HEADER AND IMG */
+/* Header and Image Top Website */
 
 .parent {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    padding: 0;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0;
 }
 
 .img_presentation {
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .img_presentation_mobile {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .ombrage_presentation {
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .ombrage_presentation_mobile {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .rowflex {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 60px;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
 }
 
 .child1 {
-    padding-left: 70px;
- }
- 
- .logo_title {
-     width: 77%;
- }
- 
- .child2 {
-     padding-right: 47px;
- }
- 
- .logo {
-     width: 70%
- }
+  padding-left: 70px;
+}
 
- .block_presentation-header {
-    position: absolute;
-    width: 100%;
-    height: 400px;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    margin: auto;
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.block_presentation-header {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  margin: auto;
 }
 
 .block_icon_vehicle {
-    width: 7%;
-    margin-bottom: 30px;
-    padding-left: 30px;
+  width: 7%;
+  margin-bottom: 30px;
+  padding-left: 30px;
 }
 
 .block_icon_vehicle {
-    padding-left: 30px;
+  padding-left: 30px;
 }
 
 .block_title {
-    font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
-    width: 90%;
-    color: white;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    padding-left: 20px;
+  font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
+  width: 90%;
+  color: white;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  padding-left: 20px;
 }
 
 .block_title > h2 {
-    color: #0066B1;
+  color: #0066b1;
 }
 
-/* MAIN */
+/* Main */
 
 .block_presentation_main {
-    min-height: 650px;
+  min-height: 650px;
 }
 
 .uppercase {
-    text-transform: uppercase;
-    font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
-    font-weight: none;
+  text-transform: uppercase;
+  font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
 }
 
-.block_principal_one, .block_principal_two, .block_principal_three, .block_principal_four {
-    min-height: 200px;
- }
-
- .block_principal_one.active, .block_principal_two.active,
- .block_principal_three.active, .block_principal_four.active {
-    min-height: 100px;
- }
-
- .block_principal_one.active > span, .block_principal_two.active > span,
- .block_principal_three.active > span, .block_principal_four.active > span {
-    color: white;
- }
-
- .block_principal > span {
-    position: absolute;
-    top: 0;
-    left: 6%;
-    font-size: 1.5em;
-    margin: 16px 0;
-    text-align: center;
-    color: black;
- }
-
- #path7151.active, #_svg_magnifier.active {
-    fill: white;
- }
-
- #path111027-8.active {
-    fill: white;
- }
-
- #path8094.active {
-    fill: white;
- }
-
- #path2987-2.active {
-    fill: white;
- }
-
- .block_collapse_one, .block_collapse_two, .block_collapse_three, .block_collapse_four {
-    position: relative;
-    background: #C7C7C7;
-    
+.block_principal_one,
+.block_principal_two,
+.block_principal_three,
+.block_principal_four {
+  min-height: 200px;
 }
 
- .block_collapse_one.active, .block_collapse_two.active,
- .block_collapse_three.active, .block_collapse_four.active {
-    min-height: 150px;
- }
+.block_principal_one.active,
+.block_principal_two.active,
+.block_principal_three.active,
+.block_principal_four.active {
+  min-height: 100px;
+}
 
-.block_collapse_one.backgroundColor, .block_collapse_two.backgroundColor,
-.block_collapse_three.backgroundColor, .block_collapse_four.backgroundColor {
-    position: relative;
-    background: #0066B1;
-    color: white;
+.block_principal_one.active > span,
+.block_principal_two.active > span,
+.block_principal_three.active > span,
+.block_principal_four.active > span {
+  color: white;
+}
+
+.block_principal > span {
+  position: absolute;
+  top: 0;
+  left: 6%;
+  font-size: 1.5em;
+  margin: 16px 0;
+  text-align: center;
+  color: black;
+}
+
+#path7151.active,
+#_svg_magnifier.active {
+  fill: white;
+}
+
+#path111027-8.active {
+  fill: white;
+}
+
+#path8094.active {
+  fill: white;
+}
+
+#path2987-2.active {
+  fill: white;
+}
+
+.block_collapse_one,
+.block_collapse_two,
+.block_collapse_three,
+.block_collapse_four {
+  position: relative;
+  background: #c7c7c7;
+}
+
+.block_collapse_one.active,
+.block_collapse_two.active,
+.block_collapse_three.active,
+.block_collapse_four.active {
+  min-height: 150px;
+}
+
+.block_collapse_one.backgroundColor,
+.block_collapse_two.backgroundColor,
+.block_collapse_three.backgroundColor,
+.block_collapse_four.backgroundColor {
+  position: relative;
+  background: #0066b1;
+  color: white;
 }
 
 .block_collapse.active {
-    height: 360px;
+  height: 360px;
 }
 
-.div_invisible_one, .div_invisible_two, .div_invisible_three, .div_invisible_four {
-    display: none;
+.div_invisible_one,
+.div_invisible_two,
+.div_invisible_three,
+.div_invisible_four {
+  display: none;
 }
 
-.div_invisible_one.active, .div_invisible_two.active,
-.div_invisible_three.active, .div_invisible_four.active {
-    display: block;
+.div_invisible_one.active,
+.div_invisible_two.active,
+.div_invisible_three.active,
+.div_invisible_four.active {
+  display: block;
 }
 
 .asterisque {
-    font-size: 0.8em;
+  font-size: 0.8em;
 }
 
-#svg-arrow-one, #svg-arrow-two, #svg-arrow-three, #svg-arrow-four {
-    position: absolute;
-    bottom: 7%;
-    right: 45%;
-    transform: rotate(0deg);
-    transition: all 0.6s;
+#svg-arrow-one,
+#svg-arrow-two,
+#svg-arrow-three,
+#svg-arrow-four {
+  position: absolute;
+  bottom: 7%;
+  right: 45%;
+  transform: rotate(0deg);
+  transition: all 0.6s;
 }
 
-#svg-arrow-one.active, #svg-arrow-two.active, 
-#svg-arrow-three.active, #svg-arrow-four.active {
-    transform: rotate(180deg);
+#svg-arrow-one.active,
+#svg-arrow-two.active,
+#svg-arrow-three.active,
+#svg-arrow-four.active {
+  transform: rotate(180deg);
 }
 
 .card {
-    padding: 0;
-    border: none;
-    width: 99%;
+  padding: 0;
+  border: none;
+  width: 99%;
 }
 
- /* FOOTER */
+/* Footer */
 
 footer {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    background: #E6E6E6;
-    margin-top: 0px;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+  margin-top: 0px;
 }
 
 .copyright {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 58px ;    
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
 }
 
 .paragraph-footer {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .block_link_footer {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .link-footer {
-    padding-right: 15px;
-    text-decoration: none;
-    color: black;
-    pointer-events: none;
-    cursor: default;
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
 }
