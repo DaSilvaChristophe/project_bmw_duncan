@@ -1,0 +1,446 @@
+/* Média Queries / Responsive */
+
+@media all and (min-width: 1130px) and (max-width: 1399px) {
+  .circle {
+    top: 17px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 240px;
+  }
+
+  .block_avantages_paragraph {
+    padding-right: 10px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1130px) {
+  .circle {
+    top: 17px;
+  }
+  .title_menu {
+    top: 35px;
+    right: 225px;
+  }
+}
+
+@media all and (min-width: 890px) and (max-width: 992px) {
+  .circle {
+    top: 17px;
+    right: 17%;
+  }
+
+  .nav-container .checkbox-one {
+    right: 17.3%;
+  }
+
+  .cross {
+    top: 5px;
+    right: 15.8%;
+  }
+
+  .title_menu {
+    display: none;
+  }
+
+  .div-img-ordinateur-BMW {
+    margin-top: 25px;
+  }
+
+  .width60 {
+    width: 80%;
+  }
+
+  .responsive_footer {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 890px) {
+  .circle {
+    top: 17px;
+    right: 19%;
+  }
+
+  .nav-container .checkbox-one {
+    right: 19.3%;
+  }
+
+  .cross {
+    top: 5px;
+    right: 17.8%;
+  }
+
+  .title_menu {
+    display: none;
+  }
+
+  .img_presentation {
+    object-fit: cover;
+  }
+
+  .div-img-ordinateur-BMW {
+    margin-top: 25px;
+  }
+
+  .width60 {
+    width: 80%;
+  }
+
+  .responsive_footer {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  .circle {
+    top: 17px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title_menu,
+  .logo_title {
+    display: none;
+  }
+
+  .img_presentation {
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .ombrage_presentation {
+    height: 80%;
+  }
+
+  .block_presentation-header {
+    height: 170px;
+    width: 100%;
+    top: 80%;
+    background-color: #e7e6e6;
+  }
+
+  #Tracé_1,
+  #Tracé_2 {
+    fill: #0066b1;
+  }
+
+  .block_title {
+    width: 80%;
+  }
+
+  .block_title > h2 {
+    color: #0066b1;
+    font-size: 1.6em;
+    padding-bottom: 10px;
+    margin-left: 0px;
+  }
+
+  .block_title > h1 {
+    color: black;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .block_presentation_main {
+    margin-top: 120px;
+  }
+
+  .block_contact {
+    margin: 10px auto;
+  }
+
+  .padding_block_paragraph {
+    padding-left: 10px;
+  }
+
+  .title_paragraph {
+    font-size: 1.7em;
+    margin-bottom: 40px;
+  }
+
+  .div-img-ordinateur-BMW {
+    margin-top: 30px;
+  }
+
+  .width60 {
+    width: 90%;
+  }
+
+  .padding_title_paragraph_two {
+    padding-left: 10px;
+  }
+
+  .block_collapse_one,
+  .block_collapse_two,
+  .block_collapse_three,
+  .block_collapse_four,
+  .block_collapse_five,
+  .block_collapse_six,
+  .block_collapse_seven,
+  .block_collapse_eight,
+  .block_collapse_nine,
+  .block_collapse_ten {
+    height: 120px;
+  }
+
+  #svg-arrow-one,
+  #svg-arrow-two,
+  #svg-arrow-three,
+  #svg-arrow-four,
+  #svg-arrow-five,
+  #svg-arrow-six,
+  #svg-arrow-seven,
+  #svg-arrow-eight,
+  #svg-arrow-nine,
+  #svg-arrow-ten {
+    position: absolute;
+    top: 68%;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .block_infos {
+    height: 130px;
+  }
+
+  .flex_infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 0 40px 0;
+  }
+
+  .svg_infos {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 8px;
+    margin-top: 2px;
+  }
+
+  footer {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: 0center;
+    background: #e6e6e6;
+  }
+
+  .copyright {
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .flex_copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block_link_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-footer {
+    margin-top: 15px;
+  }
+}
+
+@media all and (min-width: 374px) and (max-width: 576px) {
+  .circle {
+    top: 17px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title_menu,
+  .logo_title {
+    display: none;
+  }
+
+  .img_presentation {
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .ombrage_presentation {
+    height: 80%;
+  }
+
+  .block_presentation-header {
+    height: 170px;
+    width: 100%;
+    top: 80%;
+    background-color: #e7e6e6;
+  }
+
+  .block_icon_contact {
+    width: 15%;
+    padding-bottom: 38px;
+    padding-left: 13px;
+  }
+
+  #Tracé_1,
+  #Tracé_2 {
+    fill: #0066b1;
+  }
+
+  .block_title {
+    width: 85%;
+  }
+
+  .block_title > h2 {
+    color: #0066b1;
+    font-size: 1.6em;
+    padding-bottom: 15px;
+    margin-left: 0px;
+  }
+
+  .block_title > h1 {
+    color: black;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .block_presentation_main {
+    margin-top: 120px;
+  }
+
+  .block_contact {
+    margin: 10px auto;
+  }
+
+  .padding_block_paragraph {
+    padding-left: 10px;
+  }
+
+  .title_paragraph {
+    font-size: 1.7em;
+    margin-bottom: 35px;
+  }
+
+  .width60 {
+    width: 90%;
+  }
+
+  .padding_title_paragraph_two {
+    padding-left: 10px;
+  }
+
+  .block_collapse_one,
+  .block_collapse_two,
+  .block_collapse_three,
+  .block_collapse_four,
+  .block_collapse_five,
+  .block_collapse_six,
+  .block_collapse_seven,
+  .block_collapse_eight,
+  .block_collapse_nine,
+  .block_collapse_ten {
+    height: 120px;
+  }
+
+  #svg-arrow-one,
+  #svg-arrow-two,
+  #svg-arrow-three,
+  #svg-arrow-four,
+  #svg-arrow-five,
+  #svg-arrow-six,
+  #svg-arrow-seven,
+  #svg-arrow-eight,
+  #svg-arrow-nine,
+  #svg-arrow-ten {
+    position: absolute;
+    top: 68%;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .block_infos {
+    height: 130px;
+  }
+
+  .block_infos > div > p {
+    color: white;
+    padding: 0 30px 0 30px;
+    margin: 0;
+  }
+
+  .flex_infos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 0 40px 0;
+  }
+
+  .svg_infos {
+    width: 38px;
+    height: 38px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+  }
+
+  footer {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: 0center;
+    background: #e6e6e6;
+  }
+
+  .copyright {
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .flex_copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block_link_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-footer {
+    margin-top: 15px;
+  }
+}
