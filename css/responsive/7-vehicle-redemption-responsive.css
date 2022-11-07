@@ -292,8 +292,8 @@
   }
 
   .block_icon_vehicle {
-    width: 15%;
-    padding-bottom: 30px;
+    width: 18%;
+    padding-bottom: 0px;
     padding-left: 12px;
   }
 
@@ -316,8 +316,9 @@
 
   .block_title > h2 {
     color: #0066b1;
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin-left: 0px;
+    padding-bottom: 10px;
   }
 
   .block_title > h1 {
