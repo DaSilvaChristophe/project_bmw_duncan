@@ -4,8 +4,6 @@ const blockCollapseOne = document.querySelector(".block_collapse_one");
 const blockCollapseTwo = document.querySelector(".block_collapse_two");
 const blockCollapseOpenedOne = document.querySelector("#collapse-one");
 const blockCollapseOpenedTwo = document.querySelector("#collapse-two");
-const blockInfosOne = document.querySelector(".block_principal_infos_one");
-const blockInfosTwo = document.querySelector(".block_principal_infos_two");
 
 boolArrowOne = false;
 boolArrowTwo = false;
