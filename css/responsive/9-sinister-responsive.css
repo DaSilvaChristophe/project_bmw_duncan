@@ -138,17 +138,14 @@
   }
 
   .title_menu,
-  .logo_title {
+  .logo_title,
+  .ombrage_presentation {
     display: none;
   }
 
   .img_presentation {
     height: 80%;
     object-fit: cover;
-  }
-
-  .ombrage_presentation {
-    height: 80%;
   }
 
   .block_presentation-header {
@@ -190,6 +187,10 @@
 
   .block_collapse {
     margin-top: 10px;
+  }
+
+  h2.uppercase {
+    font-size: 1.9em;
   }
 
   .padding_block_paragraph {
@@ -265,21 +266,14 @@
   }
 
   .title_menu,
-  .logo_title {
+  .logo_title,
+  .ombrage_presentation {
     display: none;
-  }
-
-  .rowflex {
-    left: 5%;
   }
 
   .img_presentation {
     height: 80%;
     object-fit: cover;
-  }
-
-  .ombrage_presentation {
-    height: 80%;
   }
 
   .block_presentation-header {
@@ -327,6 +321,10 @@
 
   .block_collapse {
     margin-top: 10px;
+  }
+
+  h2.uppercase {
+    font-size: 1.9em;
   }
 
   .padding_block_paragraph {

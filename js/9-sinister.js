@@ -1,3 +1,6 @@
+const blockPresentationMain = document.querySelector(
+  ".block_presentation_main"
+);
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const blockCollapseOne = document.querySelector(".block_collapse_one");
@@ -5,8 +8,7 @@ const blockCollapseTwo = document.querySelector(".block_collapse_two");
 const blockCollapseOpenedOne = document.querySelector("#collapse-one");
 const blockCollapseOpenedTwo = document.querySelector("#collapse-two");
 
-boolArrowOne = false;
-boolArrowTwo = false;
+boolBlockPresentationMain = true;
 
 /* Collapse */
 
@@ -15,11 +17,8 @@ rotateArrowOne.addEventListener("click", (event) => {
 
   if (blockCollapseOpenedOne.style.display == "block") {
     blockCollapseOpenedOne.style.display = "none";
-    boolArrowOne = false;
   } else {
     blockCollapseOpenedOne.style.display = "block";
-    boolArrowOne = true;
-    boolArrowTwo = false;
   }
 
   rotateArrowTwo.classList.remove("active");
@@ -36,11 +35,8 @@ rotateArrowTwo.addEventListener("click", (event) => {
 
   if (blockCollapseOpenedTwo.style.display == "block") {
     blockCollapseOpenedTwo.style.display = "none";
-    boolArrowTwo = false;
   } else {
     blockCollapseOpenedTwo.style.display = "block";
-    boolArrowTwo = true;
-    boolArrowOne = false;
   }
 
   rotateArrowOne.classList.remove("active");
@@ -76,24 +72,22 @@ const check = () => {
     navBar.style.borderBottom = "3px solid rgb(146 161 176 / 100%)";
     navBar.style.boxShadow = "0px 15px 10px -15px";
 
-    if (boolArrowOne === true && boolArrowTwo === false) {
-      blockCollapseOpenedOne.style.display = "none";
-    }
-    if (boolArrowTwo === true && boolArrowOne === false) {
-      blockCollapseOpenedTwo.style.display = "none";
+    if (boolBlockPresentationMain === true) {
+      blockPresentationMain.style.display = "none";
+      boolBlockPresentationMain = false;
     }
   } else {
     imgPresentation.style.position = "absolute";
-    ombragePresentation.style.display = "block";
     divLogo.style.opacity = "1";
     navBar.style.borderBottom = "none";
     navBar.style.boxShadow = "none";
 
-    if (boolArrowOne === true && boolArrowTwo === false) {
-      blockCollapseOpenedOne.style.display = "block";
+    if (boolBlockPresentationMain === false) {
+      blockPresentationMain.style.display = "block";
+      boolBlockPresentationMain = true;
     }
-    if (boolArrowTwo === true && boolArrowOne === false) {
-      blockCollapseOpenedTwo.style.display = "block";
+    if (screen.width > 768) {
+      ombragePresentation.style.display = "block";
     }
   }
 };
