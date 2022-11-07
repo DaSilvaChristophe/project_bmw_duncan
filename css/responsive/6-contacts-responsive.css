@@ -114,17 +114,14 @@
   }
 
   .title_menu,
-  .logo_title {
+  .logo_title,
+  .ombrage_presentation {
     display: none;
   }
 
   .img_presentation {
     height: 80%;
     object-fit: cover;
-  }
-
-  .ombrage_presentation {
-    height: 80%;
   }
 
   .block_presentation-header {
@@ -286,17 +283,14 @@
   }
 
   .title_menu,
-  .logo_title {
+  .logo_title,
+  .ombrage_presentation {
     display: none;
   }
 
   .img_presentation {
     height: 80%;
     object-fit: cover;
-  }
-
-  .ombrage_presentation {
-    height: 80%;
   }
 
   .block_presentation-header {

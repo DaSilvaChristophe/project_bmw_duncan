@@ -37,7 +37,7 @@ body {
       format("svg");
 }
 
-/* HEADER AND IMG */
+/* Header and Image Top Website */
 
 .parent {
   position: relative;
@@ -119,7 +119,7 @@ body {
   color: #0066b1;
 }
 
-/* MAIN */
+/* Main */
 
 .uppercase {
   text-transform: uppercase;
@@ -266,7 +266,7 @@ body {
   margin: 0;
 }
 
-/* FOOTER */
+/* Footer */
 
 footer {
   width: 100%;

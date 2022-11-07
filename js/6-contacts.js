@@ -24,6 +24,8 @@ const blockCollapseTen = document.querySelector(".block_collapse_ten");
 
 boolBlockPresentationMain = true;
 
+/* Collapse */
+
 rotateArrowOne.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowOne.classList.toggle("active");
@@ -90,9 +92,6 @@ const check = () => {
   const divLogo = document.querySelector(".rowflex");
   const imgPresentation = document.querySelector(".img_presentation");
   const ombragePresentation = document.querySelector(".ombrage_presentation");
-  const ombragePresentationMobile = document.querySelector(
-    ".ombrage_presentation_mobile"
-  );
   const input = document.querySelector(".checkbox-one").checked;
   const navBar = document.querySelector(".navbar");
 
@@ -109,7 +108,6 @@ const check = () => {
     }
   } else {
     imgPresentation.style.position = "absolute";
-    ombragePresentation.style.display = "block";
     divLogo.style.opacity = "1";
     navBar.style.borderBottom = "none";
     navBar.style.boxShadow = "none";
@@ -117,6 +115,9 @@ const check = () => {
     if (boolBlockPresentationMain === false) {
       blockPresentationMain.style.display = "block";
       boolBlockPresentationMain = true;
+    }
+    if (screen.width > 768) {
+      ombragePresentation.style.display = "block";
     }
   }
 };
