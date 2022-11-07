@@ -9,6 +9,7 @@
     <link href="//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/2-summary-loa.css">
+    <link rel="stylesheet" href="../css/responsive/2-summary-loa-responsive.css">
     <title>Sommaire Loa - BMW Financial Services</title>
 </head>
 <body>
@@ -16,7 +17,7 @@
       <nav>
         <div class="navbar">
           <div class="container-fluid nav-container">
-              <input onclick="check()" class="checkbox-one" type="checkbox" name="" id="" />
+              <input onclick="check()" class="checkbox-one" type="checkbox"/>
               <div class="circle">
                 <div class="hamburger-lines">
                   <span class="line line1"></span>
@@ -29,20 +30,23 @@
             </div>
             <div class="menu-items">
               <svg class="cross" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="20px"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M310.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L160 210.7 54.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L114.7 256 9.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 301.3 265.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L205.3 256 310.6 150.6z"/></svg>
-              <li><a href="index.html">Accueil</a></li>
-              <li><a href="#3-avantages-contract.html">Avantages de votre contrat</a></li>
-              <li><a href="#4-services.html">Services</a></li>
-              <li><a href="#5-warranty.html">Garanties</a></li>
-              <li><a href="#">Options</a></li>
-              <li><a href="#6-contacts.html">Contacts et démarches</a></li>
-              <li><a href="#7-vehicle-redemption.html">Rachat de véhicule en cours de contrat</a></li>
-              <li><a href="#8-end-contract.html">Fin de contrat</a></li>
-              <li><a href="#9-sinister.html">Sinistre</a></li>
+              <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="3-avantages-contract.html">Avantages de votre contrat</a></li>
+                <li><a href="4-services.html">Services</a></li>
+                <li><a href="5-warranty.html">Garanties</a></li>
+                <li><a href="#">Options</a></li>
+                <li><a href="6-contacts.html">Contacts et démarches</a></li>
+                <li><a href="7-vehicle-redemption.html">Rachat de véhicule en cours de contrat</a></li>
+                <li><a href="8-end-contract.html">Fin de contrat</a></li>
+                <li><a href="9-sinister.html">Sinistre</a></li>
+              </ul>
             </div>
           </div>
         </div>
       </nav>
       <img class="img_presentation" src="../assets/img/summary-loa.png" alt="BMW autos break et coupé">
+      <img class="ombrage_presentation" src="../assets/img/Rectangle_ombrage_smartphone.png" alt="ombrage"> 
         <div class="rowflex d-flex ">
             <div class="child1">
                 <img class="logo_title" src="../assets/logo/BMW_financial_services.png" alt="logo lettres BMW Financial Services">
@@ -53,13 +57,13 @@
         </div>
         <div class="border-bottom-header"></div>
     </header>
-    <main>
+    <main class="block_presentation_main">
         <div class="block_h1">
             <h1 class="h3">vos informations pratiques sur votre <span>contrat LOA </span></h1>
         </div>
         <div class="block_navigation">
-            <div class="row h-50 ">
-                <div class="col-sm-5 col-md-3 h-100 d-flex align-items-center">
+            <div class="row row_one h-50">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockOne()" onmouseout="mouseOutBlockOne()" id="block_one" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-inch" class="pb-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="62.462" height="64.862" viewBox="0 0 82.462 84.862">
@@ -80,7 +84,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-5 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockTwo()" onmouseout="mouseOutBlockTwo()" id="block_two" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-wheel" xmlns="http://www.w3.org/2000/svg" width="80" height="70" viewBox="0 0 111 88.419">
@@ -92,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockThree()" onmouseout="mouseOutBlockThree()" id="block_three" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-umbrella" xmlns="http://www.w3.org/2000/svg" width="70.979" height="70.915" viewBox="0 0 95.979 95.915">
@@ -104,7 +108,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockFour()" onmouseout="mouseOutBlockFour()" id="block_four" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-options" xmlns="http://www.w3.org/2000/svg" width="60.962" height="60.915" viewBox="0 0 100.962 95.915">
@@ -117,8 +121,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row h-50">
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+            <div class="row row_two h-50">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockFive()" onmouseout="mouseOutBlockFive()" id="block_five" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg class="pb-2" xmlns="http://www.w3.org/2000/svg" width="67.958" height="67.958" viewBox="0 0 95.958 95.958">
@@ -133,12 +137,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockSix()" onmouseout="mouseOutBlockSix()" id="block_six" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
-                          <svg class="svg-vehicle mb-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.235" height="54" viewBox="0 0 73.235 54" opacity="0.7">
+                          <svg class="svg-vehicle mb-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="73.235" height="54" viewBox="0 0 73.235 54" opacity="0.7">
                             <defs>
-                              <clipPath id="clip-path">
+                              <clipPath>
                                 <rect id="Rectangle_12" data-name="Rectangle 12" width="73.235" height="53.805" fill="#d4d4d4"/>
                               </clipPath>
                               <clipPath id="clip-path-2">
@@ -193,12 +197,12 @@
                             </g>
                           </svg>                                                                                                           
                         </div>
-                        <div class="block_title d-flex align-items-center justify-content-center pe-1 ps-1">
-                            <p class="title_six">Rachat de votre véhicule en cours de contrat.</p>
+                        <div class="block_title d-flex align-items-center justify-content-center">
+                            <p class="title_six pb-2">Rachat de votre véhicule en cours de contrat.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockSeven()" onmouseout="mouseOutBlockSeven()" id="block_seven" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.905" height="70.862" viewBox="0 0 76.905 84.862">
@@ -227,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-3 h-100 d-flex align-items-center">
+                <div class="col-6 col-md-3 h-100 d-flex align-items-center">
                     <div onmouseover="mouseOverBlockEight()" onmouseout="mouseOutBlockEight()" id="block_eight" class="col-12 block_summary">
                         <div class="block_svg d-flex align-items-end justify-content-center">
                             <svg id="svg-accident" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60.146" height="65" viewBox="0 0 71.146 85">
@@ -252,7 +256,7 @@
                             </svg>      
                         </div>
                         <div class="block_title d-flex align-items-center justify-content-center pe-1 ps-1">
-                            <p class="pb-3 title_eight">En cas de sinistre.</p>
+                            <p class=" title_eight">En cas de sinistre.</p>
                         </div>
                     </div>
                 </div>
