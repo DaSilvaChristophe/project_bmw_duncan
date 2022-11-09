@@ -1,297 +1,328 @@
-html, body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    box-sizing: border-box;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 @import url(//db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro);
-@font-face {font-family: "BMWTypeNext Pro"; src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot"); src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff") format("woff"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro") format("svg"); }
+@font-face {
+  font-family: "BMWTypeNext Pro";
+  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot");
+  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro")
+      format("svg");
+}
 @import url(//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All);
-@font-face {font-family: "BMW Type Global Pro Bold"; src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot"); src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff") format("woff"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold") format("svg"); }
+@font-face {
+  font-family: "BMW Type Global Pro Bold";
+  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot");
+  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold")
+      format("svg");
+}
 
-
-/* HEADER AND IMG */
+/* Header and Image Top Website */
 
 .parent {
-    position: relative;
-    width: 100%;
-    height: 400px;
-    padding: 0;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0;
 }
 
 .img_presentation {
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .ombrage_presentation {
-    width: 100%;
-    height: 400px;
-    position: absolute;
-    top: 0;
-    left: 0;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .rowflex {
-    position: absolute;
-    width: 100%;
-    height: 20%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 60px;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
 }
 
 .child1 {
-    padding-left: 70px;
- }
- 
- .logo_title {
-     width: 77%;
- }
- 
- .child2 {
-     padding-right: 47px;
- }
- 
- .logo {
-     width: 70%
- }
+  padding-left: 70px;
+}
 
- .block_presentation-header {
-    position: absolute;
-    width: 60%;
-    height: 400px;
-    top: 0;
-    left: 0;
-    background-color: transparent;
-    margin: auto;
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.block_presentation-header {
+  position: absolute;
+  width: 60%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  margin: auto;
 }
 
 .block_icon_calendar {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 30px;
+  width: 15%;
+  padding-bottom: 30px;
+  padding-left: 30px;
 }
 
 .block_title {
-    font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
-    width: 85%;
-    color: white;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-    padding-left: 20px;
+  font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
+  width: 85%;
+  color: white;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  padding-left: 20px;
 }
 
 h2 {
-    color: #0066B1;
+  color: #0066b1;
 }
 
-/* MAIN */
+/* Main */
 
 .div-paragraph {
-    width: 75%;
-    margin-left: 125px;
+  width: 75%;
+  margin-left: 125px;
 }
 
 .paragraph {
-    font-weight: none;
-    color: black;
+  color: black;
 }
 
 .block_presentation_circles {
-    position: relative;
-    height: 350px;
-    background-color: white;
-    margin: 50px auto 50px;
-    padding-right: 20px;  
+  position: relative;
+  height: 350px;
+  background-color: white;
+  margin: 50px auto 50px;
+  padding-right: 20px;
 }
 
 #ligne-dashed-one {
-    position: absolute;
-    width: 100%;
-    top: -2%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  top: -2%;
+  left: 38%;
 }
 
 #ligne-dashed-two {
-    position: absolute;
-    width: 100%;
-    top: 23%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  top: 23%;
+  left: 38%;
 }
 
 #ligne-dashed-three {
-    position: absolute;
-    width: 100%;
-    bottom: 13%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  bottom: 13%;
+  left: 38%;
 }
 
 #ligne-dashed-four {
-    display: none;
-    position: absolute;
-    width: 100%;
-    bottom: 13%;
-    left: 38%;
+  display: none;
+  position: absolute;
+  width: 100%;
+  bottom: 13%;
+  left: 38%;
 }
 
 #ligne-dashed-five {
-    display: none;
-    position: absolute;
-    width: 100%;
-    top: -2%;
-    left: 38%;
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: -2%;
+  left: 38%;
 }
 
 #svg-circle-lign-one {
-    position: absolute;
-    width: 100%;
-    top: 10%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  left: 38%;
 }
 
 #svg-circle-lign-two {
-    position: absolute;
-    width: 100%;
-    bottom: 0%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 38%;
 }
 
 #svg-circle-lign-three {
-    position: absolute;
-    width: 100%;
-    bottom: -38%;
-    left: 38%;
+  position: absolute;
+  width: 100%;
+  bottom: -38%;
+  left: 38%;
 }
 
 .block_presentation_infos {
-    position: relative;
-    height: 400px;
-    background-color: white;
-    margin: 40px auto 50px;
-    padding: 0;  
+  position: relative;
+  height: 400px;
+  background-color: white;
+  margin: 40px auto 50px;
+  padding: 0;
 }
 
 .block_infos_one {
-    width: 60%;
-    height: 220px;
-    margin: 21px 0 10px 44px;
-    background-color: #354954;
-    border: 1px solid #707070;
+  width: 60%;
+  height: 220px;
+  margin: 21px 0 10px 44px;
+  background-color: #354954;
+  border: 1px solid #707070;
 }
 
 .block_infos_one > p {
-    width: 75%;
-    margin: 0 10px 0 150px;
-    color: white;
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
 }
 
 #svg-circle-one {
-    position: absolute;
-    top: 1%;
-    left: 1%;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  cursor: pointer;
 }
 
 #svg-repo {
-    position: absolute;
-    top: 46px;
-    left: 9%;
-    z-index: 1;
+  position: absolute;
+  top: 46px;
+  left: 9%;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .block_infos_two {
-    width: 60%;
-    height: 220px;
-    margin: 40px 0 10px 44px;
-    background-color: #0066B1;
-    border: 1px solid #707070;
-    opacity: 0; 
+  width: 60%;
+  height: 220px;
+  margin: 40px 0 10px 44px;
+  background-color: #0066b1;
+  border: 1px solid #707070;
+  opacity: 0;
 }
 
 .block_infos_two > p {
-    width: 75%;
-    margin: 0 10px 0 150px;
-    color: white;
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
 }
 
 #svg-circle-two {
-    position: absolute;
-    top: 35%;
-    left: 1%;
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  cursor: pointer;
 }
 
 #svg-envelope {
-    position: absolute;
-    top: 188px;
-    left: 9%;
-    z-index: 1;
+  position: absolute;
+  top: 188px;
+  left: 9%;
+  z-index: 1;
+  cursor: pointer;
 }
 
 .block_infos_three {
-    width: 60%;
-    height: 220px;
-    margin: 20px 0 10px 44px;
-    background-color: #7B7F82;
-    border: 1px solid #707070;
-    opacity: 0;
+  width: 60%;
+  height: 220px;
+  margin: 20px 0 10px 44px;
+  background-color: #7b7f82;
+  border: 1px solid #707070;
+  opacity: 0;
 }
 
 .block_infos_three > p {
-    width: 75%;
-    margin: 0 10px 0 150px;
-    color: white;
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
 }
 
 #svg-circle-three {
-    position: absolute;
-    bottom: 0;
-    left: 1%;
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  cursor: pointer;
 }
 
 #svg-form {
-    position: absolute;
-    bottom: 40px;
-    left: 9.2%;
-    z-index: 1;
+  position: absolute;
+  bottom: 40px;
+  left: 9.2%;
+  z-index: 1;
+  cursor: pointer;
 }
 
- /* FOOTER */
+/* Footer */
 
- footer {
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-    background: #E6E6E6;
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
 }
 
 .copyright {
-    display: table-cell;
-    vertical-align: middle;
-    padding-left: 58px ;    
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
 }
 
 .paragraph-footer {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .block_link_footer {
-    display: flex;
-    justify-content: end;
+  display: flex;
+  justify-content: end;
 }
 
 .link-footer {
-    padding-right: 15px;
-    text-decoration: none;
-    color: black;
-    pointer-events: none;
-    cursor: default;
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
 }
