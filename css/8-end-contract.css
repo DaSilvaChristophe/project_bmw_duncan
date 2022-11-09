@@ -123,14 +123,30 @@ h2 {
 #ligne-dashed-two {
     position: absolute;
     width: 100%;
-    top: 24%;
+    top: 23%;
     left: 38%;
 }
 
 #ligne-dashed-three {
     position: absolute;
     width: 100%;
-    bottom: 12%;
+    bottom: 13%;
+    left: 38%;
+}
+
+#ligne-dashed-four {
+    display: none;
+    position: absolute;
+    width: 100%;
+    bottom: 13%;
+    left: 38%;
+}
+
+#ligne-dashed-five {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: -2%;
     left: 38%;
 }
 
@@ -144,7 +160,7 @@ h2 {
 #svg-circle-lign-two {
     position: absolute;
     width: 100%;
-    top: 48%;
+    bottom: 0%;
     left: 38%;
 }
 
@@ -183,16 +199,11 @@ h2 {
     left: 1%;
 }
 
-#svg-circle-one.active {
-    position: absolute;
-    top: 1%;
-    left: 1%;
-}
-
 #svg-repo {
     position: absolute;
     top: 46px;
     left: 9%;
+    z-index: 1;
 }
 
 .block_infos_two {
@@ -216,16 +227,11 @@ h2 {
     left: 1%;
 }
 
-#svg-circle-two.active {
-    position: absolute;
-    top: 15%;
-    left: 1%;
-}
-
 #svg-envelope {
     position: absolute;
     top: 188px;
     left: 9%;
+    z-index: 1;
 }
 
 .block_infos_three {
@@ -249,17 +255,11 @@ h2 {
     left: 1%;
 }
 
-#svg-circle-three.active {
-    position: absolute;
-    bottom: 10%;
-    left: 1%;
-    width: 100px;
-}
-
 #svg-form {
     position: absolute;
     bottom: 40px;
     left: 9.2%;
+    z-index: 1;
 }
 
  /* FOOTER */

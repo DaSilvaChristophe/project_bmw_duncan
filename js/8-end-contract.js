@@ -2,16 +2,171 @@ const BlockPresentationMain = document.querySelector('.block_presentation_main')
 const blockOneInfo = document.querySelector('.block_infos_one');
 const blockTwoInfo = document.querySelector('.block_infos_two');
 const blockThreeInfo = document.querySelector('.block_infos_three');
+
+const ligneDashedOne = document.querySelector('#ligne-dashed-one')
+const ligneDashedTwo = document.querySelector('#ligne-dashed-two')
+const ligneDashedThree = document.querySelector('#ligne-dashed-three')
+const ligneDashedFour = document.querySelector('#ligne-dashed-four')
+const ligneDashedFive = document.querySelector('#ligne-dashed-five')
+
+const svgCircleLigneOne = document.querySelector('#svg-circle-lign-one')
+const svgCircleLigneTwo = document.querySelector('#svg-circle-lign-two')
+const svgCircleLigneThree = document.querySelector('#svg-circle-lign-three')
+
 const svgCircleOne = document.querySelector('#svg-circle-one')
 const svgCircleTwo = document.querySelector('#svg-circle-two')
 const svgCircleThree = document.querySelector('#svg-circle-three')
 
+const svgEnvelope = document.querySelector('#svg-envelope')
+const svgForm = document.querySelector('#svg-form')
+
 boolBlockPresentationMain = true
 
-const testclick = () => {
-  svgCircleTwo.classList.toggle('active');
-  blockOneInfo.style.display = "none";
+boolClickCircleSvgOne  = false
+boolClickCircleSvgTwo  = false
+boolClickCircleSvgThree  = false
 
+const clickCircleSvgOne = () => {
+
+  if(screen.width <= 768) {
+    blockOneInfo.style.opacity= "1"
+    blockOneInfo.style.visibility = "visible";
+    blockTwoInfo.style.opacity= "0"
+    blockThreeInfo.style.opacity= "0"
+    svgCircleTwo.classList.remove('active');
+    svgEnvelope.classList.remove('active')
+    svgCircleLigneTwo.classList.remove('activeCircleBlue')
+    ligneDashedTwo.classList.remove('activeCircleBlue')
+    ligneDashedThree.classList.remove('activeCircleBlue')
+    ligneDashedFour.classList.remove('activeCircleBlue')
+    svgCircleThree.classList.remove('active');
+    svgForm.classList.remove('active')
+    svgCircleLigneThree.classList.remove('activeCircleGrey')
+    ligneDashedTwo.classList.remove('activeCircleGrey')
+    ligneDashedThree.classList.remove('activeCircleGrey')
+    ligneDashedFour.classList.remove('activeCircleGrey')
+    ligneDashedFive.classList.remove('activeCircleGrey')
+  } 
+}
+
+const clickCircleSvgTwo = () => {
+
+  if(screen.width <= 768) {
+
+    
+    if(blockOneInfo.style.visibility === "visible" || boolClickCircleSvgTwo === false && boolClickCircleSvgThree === false ) {
+      blockOneInfo.style.visibility = "hidden";
+      blockTwoInfo.style.opacity= "1"
+      svgCircleTwo.classList.toggle('active');
+      svgEnvelope.classList.toggle('active')
+      svgCircleLigneTwo.classList.toggle('activeCircleBlue')
+      ligneDashedTwo.classList.toggle('activeCircleBlue')
+      ligneDashedThree.classList.toggle('activeCircleBlue')
+      ligneDashedFour.classList.toggle('activeCircleBlue')
+      boolClickCircleSvgOne  = true
+      boolClickCircleSvgTwo = true
+    } else if(boolClickCircleSvgTwo === true && boolClickCircleSvgThree === true){
+      blockOneInfo.style.visibility = "visible";
+      blockOneInfo.style.opacity= "1"
+      blockTwoInfo.style.opacity= "0"
+      blockThreeInfo.style.opacity= "0"
+      svgCircleTwo.classList.remove('active');
+      svgEnvelope.classList.remove('active')
+      svgCircleLigneTwo.classList.remove('activeCircleBlue')
+      ligneDashedTwo.classList.remove('activeCircleBlue')
+      ligneDashedThree.classList.remove('activeCircleBlue')
+      ligneDashedFour.classList.remove('activeCircleBlue')
+      svgCircleThree.classList.remove('active');
+      svgForm.classList.remove('active')
+      svgCircleLigneThree.classList.remove('activeCircleGrey')
+      ligneDashedTwo.classList.remove('activeCircleGrey')
+      ligneDashedThree.classList.remove('activeCircleGrey')
+      ligneDashedFour.classList.remove('activeCircleGrey')
+      ligneDashedFive.classList.remove('activeCircleGrey')
+      boolClickCircleSvgTwo  = false
+      boolClickCircleSvgThree = false
+    }
+    else {
+      blockOneInfo.style.visibility = "visible";
+      blockTwoInfo.style.opacity= "0"
+      svgCircleTwo.classList.remove('active');
+      svgEnvelope.classList.remove('active')
+      svgCircleLigneTwo.classList.remove('activeCircleBlue')
+      ligneDashedTwo.classList.remove('activeCircleBlue')
+      ligneDashedThree.classList.remove('activeCircleBlue')
+      ligneDashedFour.classList.remove('activeCircleBlue')
+      boolClickCircleSvgOne  = false
+      boolClickCircleSvgTwo = false
+    }
+
+
+  console.log(boolClickCircleSvgTwo)
+}}
+
+const clickCircleSvgThree = () => {
+
+  if(screen.width <= 768) {
+
+
+    if(blockOneInfo.style.visibility === "hidden" && boolClickCircleSvgTwo === true && boolClickCircleSvgThree === false) {
+      blockOneInfo.style.visibility = "hidden";
+      blockThreeInfo.style.opacity= "1"
+      svgCircleThree.classList.toggle('active');
+      svgForm.classList.toggle('active')
+      svgCircleLigneThree.classList.toggle('activeCircleGrey')
+      ligneDashedTwo.classList.toggle('activeCircleGrey')
+      ligneDashedThree.classList.toggle('activeCircleGrey')
+      ligneDashedFour.classList.toggle('activeCircleGrey')
+      ligneDashedFive.classList.toggle('activeCircleGrey')
+      blockOneInfo.style.opacity= "0"
+      blockTwoInfo.style.opacity= "0"
+      boolClickCircleSvgThree = true
+    } else if(boolClickCircleSvgTwo === true && boolClickCircleSvgThree === true){
+      blockOneInfo.style.visibility = "visible";
+      blockOneInfo.style.opacity= "1"
+      blockTwoInfo.style.opacity= "0"
+      blockThreeInfo.style.opacity= "0"
+      svgCircleTwo.classList.remove('active');
+      svgEnvelope.classList.remove('active')
+      svgCircleLigneTwo.classList.remove('activeCircleBlue')
+      ligneDashedTwo.classList.remove('activeCircleBlue')
+      ligneDashedThree.classList.remove('activeCircleBlue')
+      ligneDashedFour.classList.remove('activeCircleBlue')
+      svgCircleThree.classList.remove('active');
+      svgForm.classList.remove('active')
+      svgCircleLigneThree.classList.remove('activeCircleGrey')
+      ligneDashedTwo.classList.remove('activeCircleGrey')
+      ligneDashedThree.classList.remove('activeCircleGrey')
+      ligneDashedFour.classList.remove('activeCircleGrey')
+      ligneDashedFive.classList.remove('activeCircleGrey')
+      boolClickCircleSvgTwo  = false
+      boolClickCircleSvgThree = false
+    } else if(boolClickCircleSvgTwo === false && boolClickCircleSvgThree === false) {
+      blockOneInfo.style.visibility = "hidden";
+      blockThreeInfo.style.opacity= "1"
+      svgCircleThree.classList.toggle('active');
+      svgForm.classList.toggle('active')
+      svgCircleLigneThree.classList.toggle('activeCircleGrey')
+      ligneDashedTwo.classList.toggle('activeCircleGrey')
+      ligneDashedThree.classList.toggle('activeCircleGrey')
+      ligneDashedFour.classList.toggle('activeCircleGrey')
+      ligneDashedFive.classList.toggle('activeCircleGrey')
+      blockOneInfo.style.opacity= "0"
+      blockTwoInfo.style.opacity= "0"
+      svgCircleTwo.classList.toggle('active');
+      svgEnvelope.classList.toggle('active')
+      svgCircleLigneTwo.classList.toggle('activeCircleBlue')
+      ligneDashedTwo.classList.toggle('activeCircleBlue')
+      ligneDashedThree.classList.toggle('activeCircleBlue')
+      ligneDashedFour.classList.toggle('activeCircleBlue')
+      boolClickCircleSvgThree = true
+      boolClickCircleSvgTwo = true
+    }
+  
+    
+    console.log(boolClickCircleSvgThree)
+
+  } 
 }
 
 
