@@ -257,7 +257,6 @@ body {
 .block_infos {
   height: 60px;
   background: #0066b1;
-  border: 1px solid #707070;
 }
 
 .block_infos > div > p {

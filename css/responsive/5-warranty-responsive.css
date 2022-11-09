@@ -11,7 +11,7 @@
   }
 
   .padding_block_paragraph {
-    padding-left: 0px;
+    padding: 0px;
   }
 }
 
@@ -19,13 +19,19 @@
   .circle {
     top: 17px;
   }
+
   .title_menu {
     top: 35px;
     right: 225px;
   }
 
   .padding_block_paragraph {
-    padding-left: 0px;
+    padding: 0px;
+  }
+
+  .img-hommes-clé {
+    width: 95%;
+    height: 100%;
   }
 }
 
@@ -337,7 +343,7 @@
     height: 33%;
     display: flex;
     flex-direction: column;
-    align-items: 0center;
+    align-items: center;
     background: #e6e6e6;
   }
 

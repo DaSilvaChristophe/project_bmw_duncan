@@ -181,6 +181,7 @@
 
   .padding_title_paragraph_two {
     padding-left: 10px;
+    padding-bottom: 10px;
   }
 
   .block_collapse_one,
@@ -212,6 +213,10 @@
 
   .card {
     flex-direction: column;
+  }
+
+  .margin_svg_mobile {
+    margin-left: 0px !important;
   }
 
   .block_infos {
@@ -346,12 +351,17 @@
     margin-bottom: 35px;
   }
 
+  .div-img-ordinateur-BMW {
+    margin-top: 30px;
+  }
+
   .width60 {
     width: 90%;
   }
 
   .padding_title_paragraph_two {
     padding-left: 10px;
+    padding-bottom: 10px;
   }
 
   .block_collapse_one,
@@ -383,6 +393,10 @@
 
   .card {
     flex-direction: column;
+  }
+
+  .margin_svg_mobile {
+    margin-left: 0px !important;
   }
 
   .block_infos {

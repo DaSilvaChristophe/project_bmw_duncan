@@ -111,7 +111,7 @@ const check = () => {
     imgPresentation.style.position = "static";
     ombragePresentation.style.display = "none";
     ombragePresentationMobile.style.display = "none";
-    footer.style.display = "none";
+    footer.style.visibility = "hidden";
     divLogo.style.opacity = "0";
     navBar.style.borderBottom = "3px solid rgb(146 161 176 / 100%)";
     navBar.style.boxShadow = "0px 15px 10px -15px";
@@ -131,7 +131,7 @@ const check = () => {
     divLogo.style.opacity = "1";
     navBar.style.borderBottom = "none";
     navBar.style.boxShadow = "none";
-    footer.style.display = "block";
+    footer.style.visibility = "visible";
 
     if (boolBlockPresentationMain === false) {
       blockPresentationMain.style.display = "block";

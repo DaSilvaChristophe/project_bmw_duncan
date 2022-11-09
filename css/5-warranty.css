@@ -228,12 +228,20 @@ h3.uppercase {
   border-bottom: 1px solid #707070;
 }
 
+.color_title_three_table {
+  color: #0066b1;
+}
+
 .border_table {
   border: 1px solid #707070;
 }
 
 .background-grey {
   background-color: #eeeeee;
+}
+
+.background-blue {
+  background-color: rgba(0,102,177,0.5);
 }
 
 .svg_margin_top {
