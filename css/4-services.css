@@ -11,7 +11,7 @@ html, body {
 @font-face {font-family: "BMW Type Global Pro Bold"; src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot"); src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff") format("woff"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold") format("svg"); }
 
 
-/* HEADER AND IMG */
+/* Header and Image Top Website */
 
 .parent {
     position: relative;
@@ -93,12 +93,11 @@ html, body {
     color: #0066B1;
 }
 
-/* MAIN */
+/* Main */
 
 .uppercase {
     text-transform: uppercase;
     font-family: "BMW Type Global Pro", Arial, Helvetica, sans-serif;
-    font-weight: none;
 }
 
 .block_collapse_one, .block_collapse_two, .block_collapse_three, .block_collapse_four {
@@ -114,7 +113,7 @@ html, body {
     color: white;
 }
 
-span {
+.span_numbers {
     padding-left: 90px;
 }
 
@@ -125,31 +124,31 @@ span {
 
 #svg-center {
     position: absolute;
-    top: 5;
+    top: 28%;
     left: 2%;
 }
 
 #svg-euros {
     position: absolute;
-    top: 5;
+    top: 15%;
     left: 1.6%;
 }
 
 #svg-arrowdubble {
     position: absolute;
-    top: 5;
+    top: 20%;
     left: 1.3%;
 }
 
 #svg-qualite {
     position: absolute;
-    top: 5;
+    top: 15%;
     left: 1.8%;
 }
 
 #svg-arrow-one, #svg-arrow-two, #svg-arrow-three, #svg-arrow-four {
     position: absolute;
-    top: 5;
+    top: 28%;
     right: 3%;
     transform: rotate(0deg);
     transition: all 0.6s;
@@ -171,16 +170,19 @@ span {
     opacity: 1;
 }
 
-.block_graphique {
-    height: 220px;
+
+.div-img-couple {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .img-couple {
-    width: 95%;
+    width: 100%;
     height: 100%;
+    margin-left: 20px;
 }
 
- /* FOOTER */
+ /* Footer */
 
  footer {
     width: 100%;
@@ -215,32 +217,31 @@ span {
 }
 
  /* Animation Graphic */
-  
-.graphic_block {
-    position: relative;
-}
 
-.needle {
+  .needle {
     width: 140px;
     height: 7px;
-    background: black;
+    background: #1d1d1b;
     border-bottom-left-radius: 100%!important;
     border-bottom-right-radius: 5px!important;
     border-top-left-radius: 100%!important;
     border-top-right-radius: 5px!important;
-    position: absolute;
-    bottom: 39px;
-    left: 235px;
+    margin-right: 137px;
+    margin-bottom: 22px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38); 
     transform-origin: 100% 4px;
     transform: rotate(0deg);
-    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.38);
-    display:none;
-}
+    z-index: 1;
+    position: relative;
+    bottom: 20px;
+    left: 0;
   
-.needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display:block;}
-.needle {animation: fourspeed2 2s 1 both; animation-delay: 1s; display:block;}
-.needle {animation: fourspeed3 2s 1 both; animation-delay: 1s; display:block;}
-.needle {animation: fourspeed4 2s 1 both; animation-delay: 1s; display:block;}
+}
+
+.needle {animation: fourspeed1 2s 1 both; animation-delay: 1s; display: block;}
+.needle {animation: fourspeed2 2s 1 both; animation-delay: 1s; display: block;}
+.needle {animation: fourspeed3 2s 1 both; animation-delay: 1s; display: block;}
+.needle {animation: fourspeed4 2s 1 both; animation-delay: 1s; display: block;}
   
 
 @-webkit-keyframes fourspeed1 {
