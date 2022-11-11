@@ -196,7 +196,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -206,8 +206,13 @@
     fill: #0066b1;
   }
 
+  .block_icon_inch {
+    padding-bottom: 50px;
+    padding-left: 25px;
+  }
+
   .block_title {
-    width: 70%;
+    width: 100%;
   }
 
   .block_title > h2 {
@@ -219,7 +224,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-bottom: 13px;
     padding-left: 10px;
   }
 
@@ -474,7 +479,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -484,6 +489,12 @@
     fill: #0066b1;
   }
 
+  .block_icon_inch {
+    width: 13%;
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+
   .block_title {
     width: 70%;
   }
@@ -491,13 +502,13 @@
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     margin-left: 5px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-bottom: 0px;
     padding-left: 10px;
   }
 
@@ -752,16 +763,10 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
-  }
-
-  .block_icon_inch {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 10px;
   }
 
   #Tracé_25 {
@@ -769,8 +774,14 @@
     fill: #0066b1;
   }
 
+  .block_icon_inch {
+    width: 13%;
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+
   .block_title {
-    width: 100%;
+    width: 70%;
   }
 
   .block_title > h2 {
@@ -782,7 +793,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
     padding-left: 10px;
   }
 
@@ -1037,16 +1048,10 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
-  }
-
-  .block_icon_inch {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 10px;
   }
 
   #Tracé_25 {
@@ -1054,8 +1059,14 @@
     fill: #0066b1;
   }
 
+  .block_icon_inch {
+    width: 13%;
+    padding-bottom: 60px;
+    padding-left: 0px;
+  }
+
   .block_title {
-    width: 100%;
+    width: 70%;
   }
 
   .block_title > h2 {
@@ -1067,7 +1078,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
     padding-left: 10px;
   }
 

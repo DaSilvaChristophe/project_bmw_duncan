@@ -135,7 +135,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 140px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -143,7 +143,7 @@
 
   .block_icon_umbrella {
     width: 15%;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     padding-left: 30px;
   }
 
@@ -164,7 +164,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-bottom: 5px;
     padding-left: 10px;
   }
 
@@ -178,6 +178,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .ligne {
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 
   h2.uppercase {
@@ -266,16 +272,16 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 140px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
   }
 
   .block_icon_umbrella {
-    width: 15%;
-    padding-bottom: 35px;
-    padding-left: 12px;
+    width: 20%;
+    padding-bottom: 25px;
+    padding-left: 20px;
   }
 
   #noun-umbrella-4922934 {
@@ -295,7 +301,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
+    padding-bottom: 5px;
     padding-left: 10px;
   }
 
@@ -311,8 +317,15 @@
     align-items: center;
   }
 
+  .ligne {
+    margin-right: 5%;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
   h2.uppercase {
-    font-size: 1.9em;
+    font-size: 1.7em;
+    width: 75%;
   }
 
   h3.uppercase {

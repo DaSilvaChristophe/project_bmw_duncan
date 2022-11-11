@@ -10,10 +10,6 @@
     right: 240px;
   }
 
-  .padding_block_paragraph {
-    padding-left: 0px;
-  }
-
   .svg_infos {
     width: 68px;
     height: 68px;
@@ -24,13 +20,10 @@
   .circle {
     top: 17px;
   }
+
   .title_menu {
     top: 35px;
     right: 225px;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
   }
 
   .svg_infos {
@@ -56,10 +49,6 @@
 
   .title_menu {
     display: none;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
   }
 
   .block_infos {
@@ -99,8 +88,12 @@
     object-fit: cover;
   }
 
-  .padding_block_paragraph {
-    padding-left: 0px;
+  .block_icon_accident {
+    width: 15%;
+  }
+
+  #svg-accident {
+    margin-right: 20px;
   }
 
   .block_infos {
@@ -149,7 +142,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 160px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -161,6 +154,17 @@
     fill: #0066b1;
   }
 
+  .block_icon_accident {
+    width: 15%;
+    display: flex;
+    justify-content: start;
+    padding-left: 28px;
+  }
+
+  #svg-accident {
+    margin-right: 0px;
+  }
+
   .block_title {
     width: 70%;
   }
@@ -168,8 +172,8 @@
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
-    margin-left: 5px;
+    padding-bottom: 10px;
+    margin-left: 9px;
   }
 
   .block_title > h1 {
@@ -191,10 +195,6 @@
 
   h2.uppercase {
     font-size: 1.9em;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
   }
 
   .block_infos {
@@ -277,22 +277,27 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 160px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
-  }
-
-  .block_icon_accident {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 10px;
   }
 
   #Tracé_21,
   #Tracé_23,
   #Tracé_22 {
     fill: #0066b1;
+  }
+
+  .block_icon_accident {
+    width: 20%;
+    display: flex;
+    justify-content: start;
+    padding-left: 19px;
+  }
+
+  #svg-accident {
+    margin-right: 0px;
   }
 
   .block_title {
@@ -302,14 +307,14 @@
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
-    margin-left: 5px;
+    padding-bottom: 10px;
+    margin-left: 29px;
   }
 
   .block_title > h1 {
     color: black;
     padding-bottom: 33px;
-    padding-left: 10px;
+    padding-left: 30px;
   }
 
   .block_container {
@@ -324,11 +329,7 @@
   }
 
   h2.uppercase {
-    font-size: 1.9em;
-  }
-
-  .padding_block_paragraph {
-    padding-left: 0px;
+    font-size: 1.7em;
   }
 
   .block_infos {

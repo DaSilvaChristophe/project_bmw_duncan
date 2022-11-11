@@ -183,7 +183,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 140px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -213,7 +213,7 @@
   .block_title > h1 {
     color: black;
     padding-bottom: 25px;
-    padding-left: 0px;
+    padding-left: 2px;
   }
 
   .block_presentation_main {
@@ -296,15 +296,15 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 130px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
   }
 
   .block_icon_wheel {
-    width: 18%;
-    padding-bottom: 35px;
+    width: 20%;
+    padding-bottom: 20px;
     padding-left: 12px;
   }
 
@@ -326,7 +326,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-left: 3px;
   }
 
@@ -335,12 +335,23 @@
   }
 
   h2.uppercase {
-    margin-bottom: 30px;
     font-size: 1.8em;
   }
 
   .padding-paragraph {
     padding-left: 10px;
+  }
+
+  .padding-bottom-paragraph {
+    padding-bottom: 10px;
+  }
+
+  .ligne {
+    margin-bottom: 30px;
+  }
+
+  .graphic_block {
+    margin-top: 15px;
   }
 
   footer {

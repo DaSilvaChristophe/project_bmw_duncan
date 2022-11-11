@@ -10,6 +10,10 @@
     right: 240px;
   }
 
+  .block_title {
+    padding-left: 10px;
+  }
+
   #svg-repo {
     left: 10.7%;
   }
@@ -37,6 +41,10 @@
   .title_menu {
     top: 35px;
     right: 225px;
+  }
+
+  .block_title {
+    padding-left: 15px;
   }
 
   #svg-repo {
@@ -75,6 +83,10 @@
 
   .title_menu {
     display: none;
+  }
+
+  .block_title {
+    padding-left: 20px;
   }
 
   #ligne-dashed-one,
@@ -130,6 +142,15 @@
 
   .img_presentation {
     object-fit: cover;
+  }
+
+  .block_icon_calendar {
+    width: 25%;
+    justify-content: start;
+  }
+
+  .block_title {
+    margin-left: 0px;
   }
 
   #ligne-dashed-one,
@@ -196,7 +217,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -210,20 +231,25 @@
   }
 
   .block_title {
-    width: 70%;
+    width: 60%;
   }
 
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
-    margin-left: 5px;
+    padding-bottom: 0px;
+    margin-left: 9px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-top: 10px;
+    padding-bottom: 23px;
     padding-left: 10px;
+  }
+
+  .block_icon_calendar {
+    padding-bottom: 50px;
   }
 
   .block_presentation_main {
@@ -476,7 +502,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -490,20 +516,25 @@
   }
 
   .block_title {
-    width: 70%;
+    width: 60%;
   }
 
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
-    margin-left: 5px;
+    padding-bottom: 0px;
+    margin-left: 9px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-top: 10px;
+    padding-bottom: 13px;
     padding-left: 10px;
+  }
+
+  .block_icon_calendar {
+    padding-bottom: 40px;
   }
 
   .block_presentation_main {
@@ -756,16 +787,10 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
-  }
-
-  .block_icon_calendar {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 10px;
   }
 
   #Tracé_17,
@@ -776,20 +801,26 @@
   }
 
   .block_title {
-    width: 100%;
+    width: 80%;
   }
 
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 10px;
-    margin-left: 5px;
+    padding-bottom: 0px;
+    margin-left: 9px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
+    padding-top: 10px;
+    padding-bottom: 13px;
     padding-left: 10px;
+  }
+
+  .block_icon_calendar {
+    width: 15%;
+    padding-bottom: 40px;
   }
 
   .block_presentation_main {
@@ -1044,16 +1075,10 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
-  }
-
-  .block_icon_calendar {
-    width: 15%;
-    padding-bottom: 30px;
-    padding-left: 10px;
   }
 
   #Tracé_17,
@@ -1064,20 +1089,27 @@
   }
 
   .block_title {
-    width: 100%;
+    width: 60%;
   }
 
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 10px;
-    margin-left: 5px;
+    padding-bottom: 0px;
+    margin-left: 19px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
-    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+  }
+
+  .block_icon_calendar {
+    width: 20%;
+    padding-bottom: 28px;
+    padding-left: 20px;
   }
 
   .block_presentation_main {

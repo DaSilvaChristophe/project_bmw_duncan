@@ -1,9 +1,7 @@
 const blockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
-const footer = document.querySelector(
-  "footer"
-);
+const footer = document.querySelector("footer");
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const rotateArrowThree = document.querySelector("#svg-arrow-three");
@@ -27,11 +25,16 @@ const svgWrite = document.querySelector("#path111027-8");
 const envelopment = document.querySelector("#path8094");
 const circleArrow = document.querySelector("#path2987-2");
 
+const clickBlockOne = document.querySelector(".click_block_one");
+const clickBlockTwo = document.querySelector(".click_block_two");
+const clickBlockThree = document.querySelector(".click_block_three");
+const clickBlockFour = document.querySelector(".click_block_four");
+
 boolBlockPresentationMain = true;
 
 /* Collapse */
 
-rotateArrowOne.addEventListener("click", (event) => {
+clickBlockOne.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowOne.classList.toggle("active");
   blockPrincipalOne.classList.toggle("active");
@@ -47,7 +50,7 @@ rotateArrowOne.addEventListener("click", (event) => {
   }
 });
 
-rotateArrowTwo.addEventListener("click", (event) => {
+clickBlockTwo.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowTwo.classList.toggle("active");
   blockPrincipalTwo.classList.toggle("active");
@@ -62,7 +65,7 @@ rotateArrowTwo.addEventListener("click", (event) => {
   }
 });
 
-rotateArrowThree.addEventListener("click", (event) => {
+clickBlockThree.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowThree.classList.toggle("active");
   blockPrincipalThree.classList.toggle("active");
@@ -77,7 +80,7 @@ rotateArrowThree.addEventListener("click", (event) => {
   }
 });
 
-rotateArrowFour.addEventListener("click", (event) => {
+clickBlockFour.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowFour.classList.toggle("active");
   blockPrincipalFour.classList.toggle("active");

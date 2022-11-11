@@ -13,6 +13,14 @@
   .block_avantages_paragraph {
     padding-right: 10px;
   }
+
+  .img-ordinateur-BMW {
+    height: 100%;
+  }
+
+  .ligne {
+    margin-top: 40px;
+  }
 }
 
 @media all and (min-width: 993px) and (max-width: 1130px) {
@@ -22,6 +30,14 @@
   .title_menu {
     top: 35px;
     right: 225px;
+  }
+
+  .img-ordinateur-BMW {
+    height: 100%;
+  }
+
+  .ligne {
+    margin-top: 40px;
   }
 }
 
@@ -44,8 +60,23 @@
     display: none;
   }
 
+  .title_paragraph {
+    margin-top: 0px;
+  }
+
   .div-img-ordinateur-BMW {
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .img-ordinateur-BMW {
+    height: 90%;
+  }
+
+  .padding_block_paragraph {
+    padding-left: 0px;
   }
 
   .width60 {
@@ -80,8 +111,23 @@
     object-fit: cover;
   }
 
+  .title_paragraph {
+    margin-top: 0px;
+  }
+
   .div-img-ordinateur-BMW {
-    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .img-ordinateur-BMW {
+    height: 90%;
+  }
+
+  .padding_block_paragraph {
+    padding-left: 0px;
   }
 
   .width60 {
@@ -125,10 +171,19 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
+  }
+
+  .block_icon_contact {
+    width: 12%;
+    padding-bottom: 45px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   #Tracé_1,
@@ -144,18 +199,17 @@
     color: #0066b1;
     font-size: 1.6em;
     padding-bottom: 10px;
-    margin-left: 0px;
+    margin-left: 9px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 10px;
+    padding-bottom: 23px;
+    padding-left: 14px;
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 90px;
   }
 
   .block_contact {
@@ -163,7 +217,7 @@
   }
 
   .padding_block_paragraph {
-    padding-left: 10px;
+    padding-left: 0px;
   }
 
   .title_paragraph {
@@ -172,7 +226,14 @@
   }
 
   .div-img-ordinateur-BMW {
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .img-ordinateur-BMW {
+    height: 90%;
   }
 
   .width60 {
@@ -299,16 +360,19 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
   }
 
   .block_icon_contact {
-    width: 15%;
-    padding-bottom: 38px;
-    padding-left: 13px;
+    width: 20%;
+    padding-bottom: 27px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
 
   #Tracé_1,
@@ -317,25 +381,25 @@
   }
 
   .block_title {
-    width: 85%;
+    width: 80%;
   }
 
   .block_title > h2 {
     color: #0066b1;
-    font-size: 1.6em;
-    padding-bottom: 15px;
+    font-size: 1.5em;
+    padding-bottom: 10px;
     margin-left: 0px;
   }
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    margin-right: 50px;
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 90px;
   }
 
   .block_contact {
@@ -343,16 +407,30 @@
   }
 
   .padding_block_paragraph {
-    padding-left: 10px;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 2px;
   }
 
   .title_paragraph {
     font-size: 1.7em;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+  }
+
+  .block_avantages_paragraph {
+    padding-left: 10px;
   }
 
   .div-img-ordinateur-BMW {
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .img-ordinateur-BMW {
+    height: 90%;
   }
 
   .width60 {
@@ -397,6 +475,16 @@
 
   .margin_svg_mobile {
     margin-left: 0px !important;
+  }
+
+  .text-releveur {
+    margin-left: 0px;
+    margin-right: 60px;
+  }
+
+  .text-releveur-small {
+    margin-left: 0px;
+    margin-right: 80px;
   }
 
   .block_infos {

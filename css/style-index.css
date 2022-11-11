@@ -4,37 +4,39 @@ body {
   height: 100%;
   margin: 0;
   box-sizing: border-box;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
 }
 
-@import url(//db.onlinewebfonts.com/c/ac95f91c55cc591ecf37a4d136ff8031?family=BMWTypeNext+Pro);
 @font-face {
-  font-family: "BMWTypeNext Pro";
-  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot");
-  src: url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/ac95f91c55cc591ecf37a4d136ff8031.svg#BMWTypeNext Pro")
-      format("svg");
+  font-family: "BMWTypeNext Regular";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Regular.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Regular.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Regular.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Regular.woff2") format("woff2");
 }
-@import url(//db.onlinewebfonts.com/c/18ef7d48e5aad7f01745ddab09c29bf7?family=BMW+Type+Web+Bold+All);
+
 @font-face {
-  font-family: "BMW Type Global Pro Bold";
-  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot");
-  src: url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/c33ef0614a811078c1d3a028f8d38301.svg#BMW Type Global Pro Bold")
-      format("svg");
+  font-family: "BMWTypeNext Light";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Light.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Light.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Light.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Bold";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Bold.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Bold.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Bold.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Thin";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Thin.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Thin.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Thin.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
 }
 
 .parent {
@@ -98,8 +100,7 @@ nav {
   top: 22%;
   left: 22%;
   margin-bottom: 50px;
-  background-color: white;
-  opacity: 0.85;
+  background-color: rgba(255, 255, 255, 0.85);
 }
 
 .block_h1 {
@@ -109,7 +110,7 @@ nav {
 }
 
 h1 {
-  font-family: "BMW Type Global Pro Bold", Arial, Helvetica, sans-serif;
+  font-family: "BMWTypeNext Bold", Arial, Helvetica, sans-serif;
   color: #707070;
   font-weight: 900;
   padding-top: 35px;
@@ -127,7 +128,6 @@ h1 {
 }
 
 p {
-  font-family: "BMW Type Global", Arial, Helvetica, sans-serif;
   color: #707070;
   padding-top: 10px;
 }
@@ -146,6 +146,7 @@ p {
 .div-five,
 .div-six {
   position: relative;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
   font-size: 1.3em;
 }
 
@@ -168,20 +169,9 @@ p {
   width: 420px;
   height: 45px;
   margin-top: 5px;
-  color: #1c69d4;
-  border: 1px solid #1c69d4;
-  border-radius: none;
-}
-
-.button-one:hover,
-.button-two:hover,
-.button-three:hover,
-.button-four:hover,
-.button-five:hover,
-.button-six:hover {
   color: #0066b1;
   border: 1px solid #0066b1;
-  text-align: center;
+  border-radius: none;
 }
 
 .loa:hover,

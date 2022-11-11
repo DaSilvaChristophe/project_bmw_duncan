@@ -55,8 +55,13 @@
     display: none;
   }
 
-  .block_collapse {
-    margin-top: 10px;
+  .block_collapse_one {
+    margin-top: 35px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
   }
 
   .padding_block_paragraph {
@@ -96,8 +101,13 @@
     object-fit: cover;
   }
 
-  .block_collapse {
-    margin-top: 10px;
+  .block_collapse_one {
+    margin-top: 35px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
   }
 
   .padding_block_paragraph {
@@ -146,7 +156,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -154,7 +164,7 @@
 
   .block_icon_options {
     width: 15%;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     padding-left: 30px;
   }
 
@@ -175,7 +185,7 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-bottom: 23px;
     padding-left: 10px;
   }
 
@@ -187,15 +197,20 @@
   }
 
   h2.uppercase {
-    font-size: 1.9em;
+    font-size: 1.7em;
   }
 
   h3.uppercase {
-    margin-bottom: 20px;
+    margin-bottom: 35px;
   }
 
-  .block_collapse {
-    margin-top: 10px;
+  .block_collapse_one {
+    margin-top: 35px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
   }
 
   .padding_block_paragraph {
@@ -274,16 +289,16 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
   }
 
   .block_icon_options {
-    width: 15%;
-    padding-bottom: 35px;
-    padding-left: 12px;
+    width: 18%;
+    padding-bottom: 25px;
+    padding-left: 15px;
   }
 
   #noun-options-4923509 {
@@ -297,13 +312,14 @@
   .block_title > h2 {
     color: #0066b1;
     font-size: 1.6em;
-    padding-bottom: 20px;
-    margin-left: 5px;
+    padding-bottom: 15px;
+    margin-left: 3px;
   }
 
   .block_title > h1 {
+    width: 50%;
     color: black;
-    padding-bottom: 23px;
+    padding-bottom: 2px;
     padding-left: 10px;
   }
 
@@ -315,11 +331,11 @@
   }
 
   h2.uppercase {
-    font-size: 1.9em;
+    font-size: 1.8em;
   }
 
   h3.uppercase {
-    margin-bottom: 20px;
+    padding-bottom: 0px;
   }
 
   .block_collapse {
