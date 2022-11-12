@@ -1,0 +1,214 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "BMWTypeNext Regular";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Regular.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Regular.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Regular.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Light";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Light.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Light.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Light.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Bold";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Bold.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Bold.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Bold.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Thin";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Thin.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Thin.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Thin.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
+}
+
+/* HEADER */
+
+.parent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.parent.backgroundColor {
+  background-color: white;
+}
+
+.img_presentation {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ombrage_presentation {
+  display: none;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rowflex {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: block;
+}
+
+.child1 {
+  padding-left: 70px;
+}
+
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.border-bottom-header {
+  position: absolute;
+  width: 90%;
+  height: 0.1%;
+  top: 17%;
+  left: 5%;
+  margin-bottom: 40px;
+  background-color: white;
+  opacity: 1;
+}
+
+/* MAIN */
+
+.block_h1 {
+  position: absolute;
+  width: 70%;
+  height: 15%;
+  top: 18%;
+  left: 15%;
+  background-color: transparent;
+  margin: auto;
+}
+
+h1 {
+  font-family: "BMWTypeNext ligth", Arial, Helvetica, sans-serif;
+  color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
+span {
+  font-family: "BMWTypeNext Bold", Arial, Helvetica, sans-serif;
+}
+
+.block_navigation {
+  position: absolute;
+  width: 80%;
+  height: 70%;
+  bottom: -7%;
+  left: 10%;
+  margin-bottom: 50px;
+  background-color: transparent;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.block_summary {
+  width: 102%;
+  height: 94%;
+  background-color: white;
+}
+
+#block_one,
+#block_two,
+#block_three,
+#block_four,
+#block_five,
+#block_six,
+#block_seven,
+#block_eight {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.block_svg,
+.block_title {
+  height: 50%;
+}
+
+.block_title > p {
+  color: black;
+  font-family: "BMWTypeNext bold", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+}
+
+.copyright {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
+}
+
+.paragraph-footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block_link_footer {
+  display: flex;
+  justify-content: end;
+}
+
+.link-footer {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}

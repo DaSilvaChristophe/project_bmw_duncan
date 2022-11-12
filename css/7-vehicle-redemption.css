@@ -1,0 +1,310 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "BMWTypeNext Regular";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Regular.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Regular.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Regular.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Light";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Light.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Light.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Light.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Bold";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Bold.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Bold.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Bold.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Thin";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Thin.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Thin.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Thin.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
+}
+
+/* Header and Image Top Website */
+
+.parent {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+
+.img_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.img_presentation_mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ombrage_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ombrage_presentation_mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rowflex {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.child1 {
+  padding-left: 70px;
+}
+
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.block_presentation-header {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  margin: auto;
+}
+
+.block_icon_vehicle {
+  width: 9%;
+  margin-bottom: 25px;
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.block_title {
+  font-family: "BMWTypeNext Bold", Arial, Helvetica, sans-serif;
+  width: 90%;
+  color: white;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+
+.block_title > h2 {
+  color: #0066b1;
+}
+
+/* Main */
+
+.block_presentation_main {
+  min-height: 650px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.click_block_one,
+.click_block_two,
+.click_block_three,
+.click_block_four {
+  cursor: pointer;
+}
+
+.block_principal_one,
+.block_principal_two,
+.block_principal_three,
+.block_principal_four {
+  min-height: 200px;
+}
+
+.block_principal_one.active,
+.block_principal_two.active,
+.block_principal_three.active,
+.block_principal_four.active {
+  min-height: 100px;
+}
+
+.block_principal_one.active > span,
+.block_principal_two.active > span,
+.block_principal_three.active > span,
+.block_principal_four.active > span {
+  color: white;
+}
+
+.block_principal > span {
+  position: absolute;
+  top: 0;
+  left: 6%;
+  font-size: 1.5em;
+  margin: 16px 0;
+  text-align: center;
+  color: black;
+}
+
+#path7151.active,
+#_svg_magnifier.active {
+  fill: white;
+}
+
+#path111027-8.active {
+  fill: white;
+}
+
+#path8094.active {
+  fill: white;
+}
+
+#path2987-2.active {
+  fill: white;
+}
+
+.block_collapse_one,
+.block_collapse_two,
+.block_collapse_three,
+.block_collapse_four {
+  position: relative;
+  background: #c7c7c7;
+}
+
+.block_collapse_one.active,
+.block_collapse_two.active,
+.block_collapse_three.active,
+.block_collapse_four.active {
+  min-height: 150px;
+}
+
+.block_collapse_one.backgroundColor,
+.block_collapse_two.backgroundColor,
+.block_collapse_three.backgroundColor,
+.block_collapse_four.backgroundColor {
+  position: relative;
+  background: #0066b1;
+  color: white;
+}
+
+.block_collapse.active {
+  height: 360px;
+}
+
+.div_invisible_one,
+.div_invisible_two,
+.div_invisible_three,
+.div_invisible_four {
+  display: none;
+}
+
+.div_invisible_one.active,
+.div_invisible_two.active,
+.div_invisible_three.active,
+.div_invisible_four.active {
+  display: block;
+}
+
+.asterisque {
+  font-size: 0.8em;
+}
+
+#svg-arrow-one,
+#svg-arrow-two,
+#svg-arrow-three,
+#svg-arrow-four {
+  position: absolute;
+  bottom: 7%;
+  right: 45%;
+  transform: rotate(0deg);
+  transition: all 0.6s;
+}
+
+#svg-arrow-one.active,
+#svg-arrow-two.active,
+#svg-arrow-three.active,
+#svg-arrow-four.active {
+  transform: rotate(180deg);
+}
+
+.card {
+  padding: 0;
+  border: none;
+  width: 99%;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+  margin-top: 0px;
+}
+
+.copyright {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
+}
+
+.paragraph-footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block_link_footer {
+  display: flex;
+  justify-content: end;
+}
+
+.link-footer {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}

@@ -1,0 +1,320 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "BMWTypeNext Regular";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Regular.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Regular.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Regular.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Light";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Light.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Light.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Light.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Bold";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Bold.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Bold.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Bold.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Thin";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Thin.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Thin.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Thin.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
+}
+
+/* Header and Image Top Website */
+
+.parent {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+
+.img_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.ombrage_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.rowflex {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.child1 {
+  padding-left: 70px;
+}
+
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.block_presentation-header {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  margin: auto;
+}
+
+.block_icon_contact {
+  width: 9%;
+  padding-bottom: 25px;
+  padding-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.block_title {
+  font-family: "BMWTypeNext Bold", Arial, Helvetica, sans-serif;
+  width: 90%;
+  color: white;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.block_title > h2 {
+  color: #0066b1;
+}
+
+/* Main */
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.block_contact {
+  height: 250px;
+  padding: 0 2px 0 2px;
+}
+
+.background-grey {
+  background-color: #eeeeee;
+}
+
+.background-and-padding {
+  padding-bottom: 65px;
+  background-color: #eeeeee;
+}
+
+.height40 {
+  height: 40%;
+}
+
+.height60 {
+  height: 60%;
+}
+
+.height30 {
+  height: 30%;
+}
+
+.height70 {
+  height: 70%;
+}
+
+.width60 {
+  width: 58%;
+}
+
+.block_collapse_one,
+.block_collapse_two,
+.block_collapse_three,
+.block_collapse_four,
+.block_collapse_five,
+.block_collapse_six,
+.block_collapse_seven,
+.block_collapse_eight,
+.block_collapse_nine,
+.block_collapse_ten {
+  position: relative;
+  background: #c7c7c7;
+  border: 1px solid #707070;
+}
+
+.block_collapse_one.backgroundColor,
+.block_collapse_two.backgroundColor,
+.block_collapse_three.backgroundColor,
+.block_collapse_four.backgroundColor,
+.block_collapse_five.backgroundColor,
+.block_collapse_six.backgroundColor,
+.block_collapse_seven.backgroundColor,
+.block_collapse_eight.backgroundColor,
+.block_collapse_nine.backgroundColor,
+.block_collapse_ten.backgroundColor {
+  position: relative;
+  background: #0066b1;
+  border: 1px solid #707070;
+  color: white;
+}
+
+.block_collapse > p {
+  padding-left: 25px;
+  margin: 16px 0;
+}
+
+#svg-arrow-one,
+#svg-arrow-two,
+#svg-arrow-three,
+#svg-arrow-four,
+#svg-arrow-five,
+#svg-arrow-six,
+#svg-arrow-seven,
+#svg-arrow-eight,
+#svg-arrow-nine,
+#svg-arrow-ten {
+  position: absolute;
+  top: 28%;
+  right: 3%;
+  transform: rotate(0deg);
+  transition: all 0.6s;
+}
+
+#svg-arrow-one.active,
+#svg-arrow-two.active,
+#svg-arrow-three.active,
+#svg-arrow-four.active,
+#svg-arrow-five.active,
+#svg-arrow-six.active,
+#svg-arrow-seven.active,
+#svg-arrow-eight.active,
+#svg-arrow-nine.active,
+#svg-arrow-ten.active {
+  transform: rotate(180deg);
+}
+
+.card {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.padding_block_paragraph {
+  padding-top: 40px;
+  padding-right: 0px;
+}
+
+.title_paragraph {
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.img-ordinateur-BMW {
+  width: 100%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.ligne {
+  width: 93%;
+  height: 1px;
+  background-color: #999999;
+  opacity: 1;
+}
+
+.text-releveur {
+  margin-left: 50px;
+}
+
+.div-asterisque {
+  margin-bottom: 40px;
+}
+
+.block_infos {
+  height: 60px;
+  background: #0066b1;
+}
+
+.block_infos > div > p {
+  color: white;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.link-mail {
+  color: black;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+}
+
+.copyright {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
+}
+
+.paragraph-footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block_link_footer {
+  display: flex;
+  justify-content: end;
+}
+
+.link-footer {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}

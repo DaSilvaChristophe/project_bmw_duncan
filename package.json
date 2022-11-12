@@ -1,0 +1,20 @@
+{
+  "name": "project_bmw_duncan",
+  "version": "1.0.0",
+  "description": "BMW Financial Services",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./css/style-index.css ./css/responsive/style-index-responsive.css ./css/2-summary-loa.css ./css/responsive/2-summary-loa-responsive.css ./css/3-avantages-contract.css ./css/responsive/3-avantages-contract-responsive.css ./css/4-services.css ./css/responsive/4-services-responsive.css ./css/5-warranty.css ./css/responsive/5-warranty-responsive.css ./css/6-contacts.css ./css/responsive/6-contacts-responsive.css ./css/7-vehicle-redemption.css ./css/responsive/7-vehicle-redemption-responsive.css ./css/8-end-contract.css ./css/responsive/8-end-contract-responsive.css ./css/9-sinister.css ./css/responsive/9-sinister-responsive.css ./css/page-options.css ./css/responsive/page-options-responsive.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaSilvaChristophe/project_bmw_duncan.git"
+  },
+  "author": "Da Silva Christophe",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/DaSilvaChristophe/project_bmw_duncan/issues"
+  },
+  "homepage": "https://github.com/DaSilvaChristophe/project_bmw_duncan#readme"
+}

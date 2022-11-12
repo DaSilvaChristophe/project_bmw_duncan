@@ -1,0 +1,394 @@
+/* Média Queries / Responsive */
+
+@media all and (min-width: 1400px)  {
+  .circle {
+    top: 22.5px;
+  }
+
+  .title_menu {
+    top: 40px;
+  }
+}
+
+@media all and (min-width: 1130px) and (max-width: 1399px) {
+  .circle {
+    top: 17.9px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 240px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+}
+
+@media all and (min-width: 993px) and (max-width: 1130px) {
+  .circle {
+    top: 17.9px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 225px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+}
+
+@media all and (min-width: 890px) and (max-width: 992px) {
+  .circle {
+    top: 17.9px;
+    right: 17%;
+  }
+
+  .nav-container .checkbox-one {
+    right: 17.3%;
+  }
+
+  .cross {
+    top: 5px;
+    right: 15.8%;
+  }
+
+  .title_menu {
+    display: none;
+  }
+
+  .block_collapse_one {
+    margin-top: 35px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .div-img-famille_BMW,
+  .div-img-hommes-bureau {
+    margin-top: 20px;
+  }
+
+  .responsive_footer {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 890px) {
+  .circle {
+    top: 17.9px;
+    right: 19%;
+  }
+
+  .nav-container .checkbox-one {
+    right: 19.3%;
+  }
+
+  .cross {
+    top: 5px;
+    right: 17.8%;
+  }
+
+  .title_menu {
+    display: none;
+  }
+
+  .block_collapse_one {
+    margin-top: 35px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-right: 20px;
+  }
+
+  .div-img-famille_BMW,
+  .div-img-hommes-bureau {
+    margin-top: 20px;
+  }
+
+  .responsive_footer {
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  .circle {
+    top: 17.9px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title_menu,
+  .logo_title,
+  .ombrage_presentation {
+    display: none;
+  }
+
+  .img_presentation {
+    height: 80%;
+  }
+
+  .block_presentation-header {
+    height: 150px;
+    width: 100%;
+    top: 80%;
+    background-color: #e7e6e6;
+  }
+
+  .block_icon_options {
+    width: 15%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+
+  #noun-options-4923509 {
+    fill: #0066b1;
+  }
+
+  .block_title {
+    width: 70%;
+  }
+
+  .block_title > h2 {
+    color: #0066b1;
+    font-size: 1.6em;
+    padding-bottom: 20px;
+    margin-left: 5px;
+  }
+
+  .block_title > h1 {
+    color: black;
+    padding-bottom: 23px;
+    padding-left: 10px;
+  }
+
+  .block_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2.uppercase {
+    font-size: 1.7em;
+  }
+
+  h3.uppercase {
+    margin-bottom: 35px;
+  }
+
+  .block_collapse_one {
+    margin-top: 0px;
+  }
+
+  .block_collapse_two,
+  .block_collapse_three {
+    margin-top: 20px;
+  }
+
+  .flex_list_puce_responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-img-famille_BMW,
+  .div-img-hommes-bureau {
+    margin-top: 20px;
+  }
+
+  footer {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e6e6e6;
+  }
+
+  .copyright {
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .flex_copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block_link_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-footer {
+    margin-top: 15px;
+  }
+}
+
+@media all and (min-width: 374px) and (max-width: 576px) {
+  .circle {
+    top: 17.9px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title_menu,
+  .logo_title,
+  .ombrage_presentation {
+    display: none;
+  }
+
+  .img_presentation {
+    height: 80%;
+  }
+
+  .block_presentation-header {
+    height: 150px;
+    width: 100%;
+    top: 80%;
+    background-color: #e7e6e6;
+  }
+
+  .block_icon_options {
+    width: 18%;
+    padding-bottom: 25px;
+    padding-left: 15px;
+  }
+
+  #noun-options-4923509 {
+    fill: #0066b1;
+  }
+
+  .block_title {
+    width: 100%;
+  }
+
+  .block_title > h2 {
+    color: #0066b1;
+    font-size: 1.6em;
+    padding-bottom: 15px;
+    margin-left: 3px;
+  }
+
+  .block_title > h1 {
+    width: 50%;
+    color: black;
+    padding-bottom: 2px;
+    padding-left: 10px;
+  }
+
+  .block_container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2.uppercase {
+    font-size: 1.8em;
+  }
+
+  h3.uppercase {
+    padding-bottom: 0px;
+  }
+
+  .block_collapse {
+    margin-top: 10px;
+  }
+
+  .padding_block_responsive {
+    padding-left: 10px;
+  }
+
+  .flex_list_puce_responsive {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-img-famille_BMW {
+    margin-top: 35px;
+  }
+
+  .div-img-hommes-bureau {
+    margin-top: 35px;
+  }
+
+  .img-famille_BMW,
+  .img-hommes-bureau {
+    width: 97%;
+  }
+
+  .block_infos {
+    height: 115px;
+    font-weight: bold;
+  }
+
+  footer {
+    height: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #e6e6e6;
+  }
+
+  .copyright {
+    padding-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .flex_copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .block_link_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .link-footer {
+    margin-top: 15px;
+  }
+}

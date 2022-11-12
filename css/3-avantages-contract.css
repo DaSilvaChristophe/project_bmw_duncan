@@ -1,0 +1,334 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "BMWTypeNext Regular";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Regular.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Regular.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Regular.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Light";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Light.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Light.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Light.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Bold";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Bold.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Bold.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Bold.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "BMWTypeNext Thin";
+  src: url("/fonts/BMWTypeNext/TTF/BMWTypeNextTT-Thin.ttf") format("ttf"),
+    url("/fonts/BMWTypeNext/EOT/BMWTypeNextTT-Thin.eot") format("eot"),
+    url("/fonts/BMWTypeNext/WOFF/BMWTypeNextTT-Thin.woff") format("woff"),
+    url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
+}
+
+/* Header and Image Top Website */
+
+.parent {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 0;
+}
+
+.img_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.ombrage_presentation {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  left: 0; 
+}
+
+.rowflex {
+  position: absolute;
+  width: 100%;
+  height: 20%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.child1 {
+  padding-left: 70px;
+}
+
+.logo_title {
+  width: 77%;
+}
+
+.child2 {
+  padding-right: 47px;
+}
+
+.logo {
+  width: 70%;
+}
+
+.block_presentation-header {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  margin: auto;
+}
+
+.block_icon_inch {
+  width: 10%;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.block_title {
+  font-family: "BMWTypeNext Bold", Arial, Helvetica, sans-serif;
+  width: 100%;
+  color: white;
+  padding-bottom: 19px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+
+h2 {
+  color: #0066b1;
+}
+
+/* Main */
+
+.div-paragraph {
+  width: 75%;
+  margin-left: 125px;
+}
+
+.paragraph {
+  color: black;
+}
+
+.block_presentation_circles {
+  position: relative;
+  height: 350px;
+  background-color: white;
+  margin: 50px auto 50px;
+  padding-right: 20px;
+}
+
+#ligne-dashed-one {
+  position: absolute;
+  width: 100%;
+  top: -2%;
+  left: 38%;
+}
+
+#ligne-dashed-two {
+  position: absolute;
+  width: 100%;
+  top: 23%;
+  left: 38%;
+}
+
+#ligne-dashed-three {
+  position: absolute;
+  width: 100%;
+  bottom: 13%;
+  left: 38%;
+}
+
+#ligne-dashed-four {
+  display: none;
+  position: absolute;
+  width: 100%;
+  bottom: 13%;
+  left: 38%;
+}
+
+#ligne-dashed-five {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: -2%;
+  left: 38%;
+}
+
+#svg-circle-lign-one {
+  position: absolute;
+  width: 100%;
+  top: 10%;
+  left: 38%;
+}
+
+#svg-circle-lign-two {
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+  left: 38%;
+}
+
+#svg-circle-lign-three {
+  position: absolute;
+  width: 100%;
+  bottom: -38%;
+  left: 38%;
+}
+
+.block_presentation_infos {
+  position: relative;
+  height: 400px;
+  background-color: white;
+  margin: 40px auto 50px;
+  padding: 0;
+}
+
+.block_infos_one {
+  width: 60%;
+  height: 220px;
+  margin: 21px 0 10px 44px;
+  background-color: #354954;
+  border: 1px solid #707070;
+}
+
+.block_infos_one > p {
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
+}
+
+#svg-circle-one {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  cursor: pointer;
+}
+
+#svg-custom {
+  position: absolute;
+  top: 42px;
+  left: 9%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.block_infos_two {
+  width: 60%;
+  height: 220px;
+  margin: 18px 0 10px 44px;
+  background-color: #0066b1;
+  border: 1px solid #707070;
+  opacity: 0;
+}
+
+.block_infos_two > p {
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
+}
+
+#svg-circle-two {
+  position: absolute;
+  top: 35%;
+  left: 1%;
+  cursor: pointer;
+}
+
+#svg-times {
+  position: absolute;
+  top: 183px;
+  left: 8.3%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.block_infos_three {
+  width: 60%;
+  height: 220px;
+  margin: 20px 0 10px 44px;
+  background-color: #7b7f82;
+  border: 1px solid #707070;
+  opacity: 0;
+}
+
+.block_infos_three > p {
+  width: 75%;
+  margin: 0 10px 0 150px;
+  color: white;
+}
+
+#svg-circle-three {
+  position: absolute;
+  bottom: 0;
+  left: 1%;
+  cursor: pointer;
+}
+
+#svg-key {
+  position: absolute;
+  bottom: 40px;
+  left: 9.2%;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  background: #e6e6e6;
+}
+
+.copyright {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 58px;
+}
+
+.paragraph-footer {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.block_link_footer {
+  display: flex;
+  justify-content: end;
+}
+
+.link-footer {
+  padding-right: 15px;
+  text-decoration: none;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}

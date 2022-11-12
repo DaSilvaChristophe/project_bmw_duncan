@@ -1,0 +1,210 @@
+/* Média Queries / Responsive */
+
+@media all and (min-width: 993px) and (max-width: 1399px) {
+  .block_presentation {
+    width: 65%;
+    height: 76%;
+    top: 19%;
+  }
+
+  .block_paragraph {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    padding-top: 25px;
+  }
+
+  p {
+    margin: 0 0 10px;
+  }
+}
+
+@media all and (min-width: 769px) and (max-width: 992px) {
+  .block_presentation {
+    width: 65%;
+    height: 76%;
+    top: 19%;
+  }
+
+  .block_paragraph {
+    width: 85%;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.4em;
+    padding-top: 25px;
+  }
+
+  p {
+    margin: 0 0 6px;
+  }
+}
+
+@media all and (min-width: 577px) and (max-width: 768px) {
+  nav {
+    display: block;
+  }
+
+  .circle {
+    top: 13px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .title_menu,
+  .logo_title {
+    display: none;
+  }
+
+  .img_presentation {
+    width: 100%;
+    height: 50%;
+  }
+
+  .ombrage_responsive {
+    height: 15%;
+  }
+
+  .block_presentation {
+    width: 85%;
+    height: 78%;
+    top: 50%;
+    left: 10%;
+    background: transparent;
+  }
+
+  .block_paragraph {
+    width: 85%;
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    padding-top: 25px;
+  }
+
+  p {
+    margin: 0 0 6px;
+  }
+
+  .child2 {
+    padding-right: 27px;
+  }
+}
+
+@media all and (min-width: 374px) and (max-width: 576px) {
+  nav {
+    display: block;
+  }
+
+  .circle {
+    top: 13px;
+    left: 10%;
+  }
+
+  .nav-container .checkbox-one {
+    left: 10.5%;
+  }
+
+  .cross {
+    top: 7px;
+    left: 11.7%;
+  }
+
+  .child2 {
+    display: flex;
+    justify-content: center;
+    padding-right: 0px;
+  }
+
+  .title_menu,
+  .logo_title {
+    display: none;
+  }
+
+  .img_presentation {
+    width: 100%;
+    height: 50%;
+  }
+
+  .ombrage_responsive {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 15%;
+  }
+
+  .block_presentation {
+    width: 100%;
+    height: 82%;
+    top: 50%;
+    left: 0%;
+    background: transparent;
+  }
+
+  .block_paragraph {
+    width: 85%;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 1.6em;
+    padding-top: 25px;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  p {
+    margin: 16px 0;
+    width: 70%;
+    padding: 0;
+  }
+
+  .block_button {
+    padding-bottom: 40px;
+  }
+
+  .button-one,
+  .button-two,
+  .button-three,
+  .button-four,
+  .button-five,
+  .button-six {
+    width: 350px;
+    height: 70px;
+    padding-left: 10px;
+    font-size: 1em;
+  }
+
+  .svg-loa,
+  .svg-passlease-loa,
+  .svg-ldd,
+  .svg-passlease-ldd,
+  .svg-credit,
+  .svg-credit-ballon {
+    top: 16px;
+    padding-right: 0px;
+    width: 60px;
+    height: 44px;
+    text-align: right;
+  }
+}
