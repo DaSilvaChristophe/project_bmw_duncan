@@ -1,9 +1,7 @@
 const blockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
-const footer = document.querySelector(
-  "footer"
-);
+const footer = document.querySelector("footer");
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const blockCollapseOne = document.querySelector(".block_collapse_one");

@@ -1,8 +1,18 @@
 /* Média Queries / Responsive */
 
+@media all and (min-width: 1400px)  {
+  .circle {
+    top: 22.5px;
+  }
+
+  .title_menu {
+    top: 40px;
+  }
+}
+
 @media all and (min-width: 1200px) and (max-width: 1399px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
   }
 
   .title_menu {
@@ -13,7 +23,7 @@
 
 @media all and (min-width: 1130px) and (max-width: 1199px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
   }
 
   .title_menu {
@@ -28,7 +38,7 @@
   }
 
   .img-couple {
-    height: 90%;
+    height: 85%;
     padding-left: 40px;
   }
 
@@ -39,8 +49,9 @@
 
 @media all and (min-width: 993px) and (max-width: 1129px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
   }
+  
   .title_menu {
     top: 35px;
     right: 225px;
@@ -57,7 +68,7 @@
   }
 
   .img-couple {
-    height: 90%;
+    height: 85%;
     padding-left: 40px;
   }
 
@@ -68,7 +79,7 @@
 
 @media all and (min-width: 890px) and (max-width: 992px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
     right: 17%;
   }
 
@@ -106,7 +117,7 @@
 
 @media all and (min-width: 769px) and (max-width: 890px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
     right: 19%;
   }
 
@@ -129,10 +140,6 @@
     padding-left: 13px;
   }
 
-  .img_presentation {
-    object-fit: cover;
-  }
-
   .graphic_block {
     margin: auto;
   }
@@ -148,7 +155,7 @@
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
     left: 10%;
   }
 
@@ -175,7 +182,6 @@
 
   .img_presentation {
     height: 80%;
-    object-fit: cover;
   }
 
   .ombrage_presentation {
@@ -217,7 +223,7 @@
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 90px;
   }
 
   .padding-paragraph {
@@ -261,7 +267,7 @@
 
 @media all and (min-width: 374px) and (max-width: 576px) {
   .circle {
-    top: 17px;
+    top: 17.9px;
     left: 10%;
   }
 
@@ -288,7 +294,6 @@
 
   .img_presentation {
     height: 80%;
-    object-fit: cover;
   }
 
   .ombrage_presentation {
@@ -331,7 +336,7 @@
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 80px;
   }
 
   h2.uppercase {

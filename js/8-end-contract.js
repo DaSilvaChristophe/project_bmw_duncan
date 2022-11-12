@@ -2,24 +2,22 @@ const BlockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
 const footer = document.querySelector("footer");
-const blockOneInfo = document.querySelector(".block_infos_one");
-const blockTwoInfo = document.querySelector(".block_infos_two");
-const blockThreeInfo = document.querySelector(".block_infos_three");
 
 const ligneDashedOne = document.querySelector("#ligne-dashed-one");
 const ligneDashedTwo = document.querySelector("#ligne-dashed-two");
 const ligneDashedThree = document.querySelector("#ligne-dashed-three");
 const ligneDashedFour = document.querySelector("#ligne-dashed-four");
 const ligneDashedFive = document.querySelector("#ligne-dashed-five");
-
 const svgCircleLigneOne = document.querySelector("#svg-circle-lign-one");
 const svgCircleLigneTwo = document.querySelector("#svg-circle-lign-two");
 const svgCircleLigneThree = document.querySelector("#svg-circle-lign-three");
-
 const svgCircleOne = document.querySelector("#svg-circle-one");
 const svgCircleTwo = document.querySelector("#svg-circle-two");
 const svgCircleThree = document.querySelector("#svg-circle-three");
 
+const blockOneInfo = document.querySelector(".block_infos_one");
+const blockTwoInfo = document.querySelector(".block_infos_two");
+const blockThreeInfo = document.querySelector(".block_infos_three");
 const svgEnvelope = document.querySelector("#svg-envelope");
 const svgForm = document.querySelector("#svg-form");
 

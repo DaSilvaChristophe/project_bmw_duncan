@@ -1,8 +1,6 @@
-const blockPresentationMain = document.querySelector(
-  ".block_presentation"
-);
+const blockPresentationMain = document.querySelector(".block_presentation");
 
-boolBlockPresentationMain = true;
+const nav = document.querySelector("nav");
 
 const divOne = document.querySelector(".div-one");
 const divTwo = document.querySelector(".div-two");
@@ -11,7 +9,6 @@ const divFour = document.querySelector(".div-four");
 const divFive = document.querySelector(".div-five");
 const divSix = document.querySelector(".div-six");
 
-const nav = document.querySelector("nav");
 const hoverLoa = document.querySelector(".loa");
 const hoverPassLeaseLoa = document.querySelector(".passlease-loa");
 const hoverLdd = document.querySelector(".ldd");
@@ -25,6 +22,8 @@ const svgLdd = document.getElementById("path10531-3");
 const svgPassLeaseLdd = document.getElementById("path10531-4");
 const svgCredit = document.getElementById("path10531-5");
 const svgCreditBallon = document.getElementById("path10531-6");
+
+boolBlockPresentationMain = true;
 
 const mouseOverLoa = () => {
   hoverLoa.classList.toggle("active");

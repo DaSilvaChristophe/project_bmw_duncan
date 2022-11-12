@@ -1,13 +1,12 @@
 /* Média Queries / Responsive */
 
-@media all and (min-width: 1130px) and (max-width: 1399px) {
+@media all and (min-width: 1400px)  {
   .circle {
-    top: 17px;
+    top: 22.5px;
   }
 
   .title_menu {
-    top: 35px;
-    right: 240px;
+    top: 40px;
   }
 
   .ombrage_presentation {
@@ -15,10 +14,11 @@
   }
 }
 
-@media all and (min-width: 993px) and (max-width: 1130px) {
+@media all and (min-width: 1130px) and (max-width: 1399px) {
   .circle {
-    top: 17px;
+    top: 13px;
   }
+
   .title_menu {
     top: 35px;
     right: 225px;
@@ -29,9 +29,28 @@
   }
 }
 
+@media all and (min-width: 993px) and (max-width: 1130px) {
+  .circle {
+    top: 13px;
+  }
+
+  .title_menu {
+    top: 35px;
+    right: 225px;
+  }
+
+  .img_presentation {
+    object-fit: cover;
+  }
+
+  .ombrage_presentation {
+    display: none;
+  }
+}
+
 @media all and (min-width: 890px) and (max-width: 992px) {
   .circle {
-    top: 17px;
+    top: 13px;
     right: 17%;
   }
 
@@ -42,6 +61,10 @@
   .cross {
     top: 5px;
     right: 15.8%;
+  }
+
+  .img_presentation {
+    object-fit: cover;
   }
 
   .title_menu,
@@ -56,7 +79,7 @@
 
 @media all and (min-width: 769px) and (max-width: 890px) {
   .circle {
-    top: 17px;
+    top: 13px;
     right: 19%;
   }
 
@@ -67,6 +90,10 @@
   .cross {
     top: 5px;
     right: 17.8%;
+  }
+
+  .img_presentation {
+    object-fit: cover;
   }
 
   .title_menu,
@@ -93,7 +120,7 @@
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   .circle {
-    top: 17px;
+    top: 13px;
     left: 10%;
   }
 
@@ -121,7 +148,7 @@
   }
 
   .img_presentation {
-    height: 80%;
+    height: 50%;
     object-fit: cover;
   }
 
@@ -130,25 +157,26 @@
   }
 
   .block_presentation_main {
-    min-height: 850px;
+    min-height: 660px;
     background-color: #707070;
   }
 
   .block_h1 {
-    top: 85%;
+    top: 52%;
   }
 
   h1 {
     color: black;
+    margin-top: 0px;
   }
 
   .border-bottom-header {
     background-color: black;
-    top: 102%;
+    top: 69%;
   }
 
   .block_navigation {
-    bottom: -67%;
+    bottom: -34%;
   }
 
   .row_one {
@@ -202,7 +230,7 @@
 
 @media all and (min-width: 374px) and (max-width: 576px) {
   .circle {
-    top: 17px;
+    top: 13px;
     left: 10%;
   }
 
@@ -230,7 +258,7 @@
   }
 
   .img_presentation {
-    height: 80%;
+    height: 50%;
     object-fit: cover;
   }
 
@@ -239,25 +267,26 @@
   }
 
   .block_presentation_main {
-    min-height: 850px;
+    min-height: 660px;
     background-color: #707070;
   }
 
   .block_h1 {
-    top: 80%;
+    top: 51.5%;
   }
 
   h1 {
     color: black;
+    margin-top: 0px;
   }
 
   .border-bottom-header {
     background-color: black;
-    top: 102%;
+    top: 71%;
   }
 
   .block_navigation {
-    bottom: -67%;
+    bottom: -34%;
   }
 
   .row_one {

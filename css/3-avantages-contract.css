@@ -54,6 +54,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 
 .ombrage_presentation {
@@ -61,7 +62,7 @@ body {
   height: 400px;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0; 
 }
 
 .rowflex {

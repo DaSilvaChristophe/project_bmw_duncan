@@ -2,10 +2,12 @@ const blockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
 const footer = document.querySelector("footer");
+
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const rotateArrowThree = document.querySelector("#svg-arrow-three");
 const rotateArrowFour = document.querySelector("#svg-arrow-four");
+const blockCollapse = document.querySelectorAll(".block_collapse");
 const blockPrincipalOne = document.querySelector(".block_principal_one");
 const blockPrincipalTwo = document.querySelector(".block_principal_two");
 const blockPrincipalThree = document.querySelector(".block_principal_three");
@@ -14,11 +16,11 @@ const blockCollapseOne = document.querySelectorAll(".block_collapse_one");
 const blockCollapseTwo = document.querySelectorAll(".block_collapse_two");
 const blockCollapseThree = document.querySelectorAll(".block_collapse_three");
 const blockCollapseFour = document.querySelectorAll(".block_collapse_four");
-const blockCollapse = document.querySelectorAll(".block_collapse");
 const invisibleDivOne = document.querySelector(".div_invisible_one");
 const invisibleDivTwo = document.querySelector(".div_invisible_two");
 const invisibleDivThree = document.querySelector(".div_invisible_three");
 const invisibleDivFour = document.querySelector(".div_invisible_four");
+
 const magnifierOne = document.querySelector("#path7151");
 const magnifierTwo = document.querySelector("#_svg_magnifier");
 const svgWrite = document.querySelector("#path111027-8");

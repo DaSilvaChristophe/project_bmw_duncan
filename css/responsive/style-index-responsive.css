@@ -49,7 +49,7 @@
   }
 
   .circle {
-    top: 17px;
+    top: 13px;
     left: 10%;
   }
 
@@ -114,7 +114,7 @@
   }
 
   .circle {
-    top: 17px;
+    top: 13px;
     left: 10%;
   }
 
@@ -131,7 +131,6 @@
     display: flex;
     justify-content: center;
     padding-right: 0px;
-    padding-bottom: 20px;
   }
 
   .title_menu,
