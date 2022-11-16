@@ -2,11 +2,11 @@
 
 @media all and (min-width: 1400px)  {
   .circle {
-    top: 22.5px;
+    top: 27px;
   }
 
   .title_menu {
-    top: 40px;
+    top: 35px;
   }
 
   .ombrage_presentation {
@@ -16,12 +16,12 @@
 
 @media all and (min-width: 1130px) and (max-width: 1399px) {
   .circle {
-    top: 13px;
+    top: 23px;
   }
 
   .title_menu {
-    top: 35px;
-    right: 225px;
+    top: 30px;
+    right: 240px;
   }
 
   .ombrage_presentation {
@@ -31,12 +31,12 @@
 
 @media all and (min-width: 993px) and (max-width: 1130px) {
   .circle {
-    top: 13px;
+    top: 23px;
   }
 
   .title_menu {
-    top: 35px;
-    right: 225px;
+    top: 30px;
+    right: 240px;
   }
 
   .img_presentation {
@@ -50,7 +50,7 @@
 
 @media all and (min-width: 890px) and (max-width: 992px) {
   .circle {
-    top: 13px;
+    top: 23px;
     right: 17%;
   }
 
@@ -79,7 +79,7 @@
 
 @media all and (min-width: 769px) and (max-width: 890px) {
   .circle {
-    top: 13px;
+    top: 23px;
     right: 19%;
   }
 
@@ -120,7 +120,7 @@
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   .circle {
-    top: 13px;
+    top: 23px;
     left: 10%;
   }
 
@@ -136,6 +136,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -144,7 +145,7 @@
   }
 
   .parent {
-    background-color: #707070;
+    background-color: #d9d5d5;
   }
 
   .img_presentation {
@@ -157,8 +158,8 @@
   }
 
   .block_presentation_main {
-    min-height: 660px;
-    background-color: #707070;
+    min-height: 920px;
+    background-color: #d9d5d5;
   }
 
   .block_h1 {
@@ -172,30 +173,25 @@
 
   .border-bottom-header {
     background-color: black;
-    top: 69%;
+    top: 70%;
+    
   }
 
   .block_navigation {
-    bottom: -34%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
   }
 
-  .row_one {
-    margin-top: 100px;
+  .margin_block {
+    height: 100%;
+    margin-bottom: 10px;
   }
 
   .row_two {
-    margin-top: 200px;
-  }
-
-  #block_one,
-  #block_two,
-  #block_three,
-  #block_four,
-  #block_five,
-  #block_six,
-  #block_seven,
-  #block_eight {
-    opacity: 1;
+    position: absolute;
+    top: 95%;
   }
 
   footer {
@@ -227,10 +223,9 @@
     margin-top: 15px;
   }
 }
-
-@media all and (min-width: 374px) and (max-width: 576px) {
+@media all and (min-width: 359px) and (max-width: 576px) {
   .circle {
-    top: 13px;
+    top: 23px;
     left: 10%;
   }
 
@@ -246,6 +241,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -254,7 +250,7 @@
   }
 
   .parent {
-    background-color: #707070;
+    background-color: #d9d5d5;
   }
 
   .img_presentation {
@@ -267,12 +263,12 @@
   }
 
   .block_presentation_main {
-    min-height: 660px;
-    background-color: #707070;
+    min-height: 920px;
+    background-color: #d9d5d5;
   }
 
   .block_h1 {
-    top: 51.5%;
+    top: 50%;
   }
 
   h1 {
@@ -282,19 +278,25 @@
 
   .border-bottom-header {
     background-color: black;
-    top: 71%;
+    top: 70%;
+    
   }
 
   .block_navigation {
-    bottom: -34%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70%;
   }
 
-  .row_one {
-    margin-top: 100px;
+  .margin_block {
+    height: 100%;
+    margin-bottom: 10px;
   }
 
   .row_two {
-    margin-top: 200px;
+    position: absolute;
+    top: 95%;
   }
 
   #block_one,
@@ -306,6 +308,10 @@
   #block_seven,
   #block_eight {
     opacity: 1;
+  }
+
+  .block_title > p {
+    font-size: 0.9em;
   }
 
   footer {

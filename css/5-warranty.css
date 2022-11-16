@@ -131,6 +131,14 @@ body {
   min-height: 320px;
 }
 
+.padding_breadcrumb {
+  padding-left: 0px;
+}
+
+.breadcrumb-item {
+  font-size: 0.9em;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -144,6 +152,7 @@ body {
   position: relative;
   background: #c7c7c7;
   border: 1px solid #707070;
+  cursor: pointer;
 }
 
 .block_collapse_one.backgroundColor,
@@ -155,7 +164,7 @@ body {
 }
 
 .block_collapse {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;

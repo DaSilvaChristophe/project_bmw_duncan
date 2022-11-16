@@ -1,34 +1,34 @@
 /* Média Queries / Responsive */
 
-@media all and (min-width: 1400px)  {
+@media all and (min-width: 1400px) {
   .circle {
-    top: 22.5px;
+    top: 27px;
   }
 
   .title_menu {
-    top: 40px;
+    top: 35px;
   }
 }
 
 @media all and (min-width: 1200px) and (max-width: 1399px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
   }
 
   .title_menu {
-    top: 35px;
+    top: 37.5px;
     right: 240px;
   }
 }
 
 @media all and (min-width: 1130px) and (max-width: 1200px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
   }
 
   .title_menu {
-    top: 35px;
-    right: 240px;
+    top: 37.5px;
+    right: 225px;
   }
 
   .block_collapse.active {
@@ -42,7 +42,7 @@
 
 @media all and (min-width: 993px) and (max-width: 1130px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
   }
   .title_menu {
     top: 35px;
@@ -64,7 +64,7 @@
 
 @media all and (min-width: 890px) and (max-width: 992px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     right: 17%;
   }
 
@@ -100,7 +100,7 @@
 
 @media all and (min-width: 769px) and (max-width: 890px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     right: 19%;
   }
 
@@ -136,7 +136,7 @@
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     left: 10%;
   }
 
@@ -152,6 +152,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -168,7 +169,7 @@
   }
 
   .block_presentation-header {
-    height: 170px;
+    height: 150px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -177,7 +178,7 @@
   .block_icon_vehicle {
     width: 15%;
     padding-left: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
 
   #Tracé_7,
@@ -206,12 +207,12 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 33px;
+    padding-bottom: 10px;
     padding-left: 10px;
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 90px;
   }
 
   footer {
@@ -245,9 +246,9 @@
   }
 }
 
-@media all and (min-width: 374px) and (max-width: 576px) {
+@media all and (min-width: 359px) and (max-width: 576px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     left: 10%;
   }
 
@@ -263,6 +264,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -300,8 +302,8 @@
 
   .block_icon_vehicle {
     width: 20%;
-    padding-left: 10px;
-    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-bottom: 15px;
   }
 
   #Tracé_7,
@@ -335,7 +337,7 @@
   }
 
   .block_presentation_main {
-    margin-top: 120px;
+    margin-top: 110px;
   }
 
   footer {

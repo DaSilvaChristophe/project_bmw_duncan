@@ -154,6 +154,20 @@ header {
   margin: 0;
 }
 
+.menu-items > ul > li:hover {
+  background-color: #0066b1;
+}
+
+.menu-items > ul > li:hover a {
+  color: white;
+  font-weight: bold;
+}
+
+.menu-items > ul > li > a {
+  width: 100%;
+  text-align: start;
+}
+
 .cross {
   position: absolute;
   top: 9px;

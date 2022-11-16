@@ -15,25 +15,25 @@ boolBlockPresentationMain = true;
 
 /* Collapse */
 
-rotateArrowOne.addEventListener("click", (event) => {
+blockCollapseOne.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowOne.classList.toggle("active");
   blockCollapseOne.classList.toggle("backgroundColor");
 });
 
-rotateArrowTwo.addEventListener("click", (event) => {
+blockCollapseTwo.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowTwo.classList.toggle("active");
   blockCollapseTwo.classList.toggle("backgroundColor");
 });
 
-rotateArrowThree.addEventListener("click", (event) => {
+blockCollapseThree.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowThree.classList.toggle("active");
   blockCollapseThree.classList.toggle("backgroundColor");
 });
 
-rotateArrowFour.addEventListener("click", (event) => {
+blockCollapseFour.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowFour.classList.toggle("active");
   blockCollapseFour.classList.toggle("backgroundColor");

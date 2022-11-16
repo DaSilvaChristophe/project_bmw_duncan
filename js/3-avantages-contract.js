@@ -23,7 +23,7 @@ const svgKey = document.querySelector("#svg-key");
 
 boolBlockPresentationMain = true;
 
-boolClickCircleSvgOne = false;
+boolClickCircleSvgOne = true;
 boolClickCircleSvgTwo = false;
 boolClickCircleSvgThree = false;
 
@@ -48,11 +48,18 @@ const clickCircleSvgOne = () => {
     ligneDashedThree.classList.remove("activeCircleGrey");
     ligneDashedFour.classList.remove("activeCircleGrey");
     ligneDashedFive.classList.remove("activeCircleGrey");
+    boolClickCircleSvgOne = true;
+    boolClickCircleSvgTwo = false;
+    boolClickCircleSvgThree = false;
   } else {
     blockOneInfo.style.opacity = "1";
     blockTwoInfo.style.opacity = "0";
     blockThreeInfo.style.opacity = "0";
+    boolClickCircleSvgOne = true;
+    boolClickCircleSvgTwo = false;
+    boolClickCircleSvgThree = false;
   }
+  console.log(boolClickCircleSvgOne);
 };
 
 const clickCircleSvgTwo = () => {
@@ -69,11 +76,12 @@ const clickCircleSvgTwo = () => {
       ligneDashedTwo.classList.toggle("activeCircleBlue");
       ligneDashedThree.classList.toggle("activeCircleBlue");
       ligneDashedFour.classList.toggle("activeCircleBlue");
-      boolClickCircleSvgOne = true;
+      boolClickCircleSvgOne = false;
       boolClickCircleSvgTwo = true;
     } else if (
       boolClickCircleSvgTwo === true &&
-      boolClickCircleSvgThree === true
+      boolClickCircleSvgThree === false &&
+      boolClickCircleSvgOne === false
     ) {
       blockOneInfo.style.visibility = "visible";
       blockOneInfo.style.opacity = "1";
@@ -92,21 +100,18 @@ const clickCircleSvgTwo = () => {
       ligneDashedThree.classList.remove("activeCircleGrey");
       ligneDashedFour.classList.remove("activeCircleGrey");
       ligneDashedFive.classList.remove("activeCircleGrey");
+      boolClickCircleSvgOne = true;
       boolClickCircleSvgTwo = false;
       boolClickCircleSvgThree = false;
     } else if (
-      blockOneInfo.style.visibility === "hidden" &&
       boolClickCircleSvgTwo === true &&
-      boolClickCircleSvgThree === true
+      boolClickCircleSvgThree === true &&
+      boolClickCircleSvgOne === false
     ) {
       blockOneInfo.style.visibility = "hidden";
       blockTwoInfo.style.opacity = "1";
-      svgCircleTwo.classList.toggle("active");
-      svgTimes.classList.toggle("active");
-      svgCircleLigneTwo.classList.toggle("activeCircleBlue");
-      ligneDashedTwo.classList.toggle("activeCircleBlue");
-      ligneDashedThree.classList.toggle("activeCircleBlue");
-      ligneDashedFour.classList.toggle("activeCircleBlue");
+      blockThreeInfo.style.opacity = "0";
+
       svgCircleThree.classList.remove("active");
       svgKey.classList.remove("active");
       svgCircleLigneThree.classList.remove("activeCircleGrey");
@@ -114,6 +119,7 @@ const clickCircleSvgTwo = () => {
       ligneDashedThree.classList.remove("activeCircleGrey");
       ligneDashedFour.classList.remove("activeCircleGrey");
       ligneDashedFive.classList.remove("activeCircleGrey");
+      boolClickCircleSvgOne = false;
       boolClickCircleSvgTwo = true;
       boolClickCircleSvgThree = false;
     } else {
@@ -125,7 +131,8 @@ const clickCircleSvgTwo = () => {
       ligneDashedTwo.classList.remove("activeCircleBlue");
       ligneDashedThree.classList.remove("activeCircleBlue");
       ligneDashedFour.classList.remove("activeCircleBlue");
-      boolClickCircleSvgOne = false;
+      boolClickCircleSvgOne = true;
+      boolClickCircleSvgThree = false;
       boolClickCircleSvgTwo = false;
     }
 
@@ -134,6 +141,7 @@ const clickCircleSvgTwo = () => {
     blockTwoInfo.style.opacity = "1";
     blockOneInfo.style.opacity = "0";
     blockThreeInfo.style.opacity = "0";
+    boolClickCircleSvgOne = false;
   }
 };
 
@@ -155,6 +163,7 @@ const clickCircleSvgThree = () => {
       ligneDashedFive.classList.toggle("activeCircleGrey");
       blockOneInfo.style.opacity = "0";
       blockTwoInfo.style.opacity = "0";
+      boolClickCircleSvgOne = false;
       boolClickCircleSvgThree = true;
     } else if (
       boolClickCircleSvgTwo === true &&
@@ -177,11 +186,12 @@ const clickCircleSvgThree = () => {
       ligneDashedThree.classList.remove("activeCircleGrey");
       ligneDashedFour.classList.remove("activeCircleGrey");
       ligneDashedFive.classList.remove("activeCircleGrey");
+      boolClickCircleSvgOne = true;
       boolClickCircleSvgTwo = false;
       boolClickCircleSvgThree = false;
     } else if (
       (boolClickCircleSvgTwo === false && boolClickCircleSvgThree === false) ||
-      (blockOneInfo.style.visibility === "visble" &&
+      (boolClickCircleSvgOne === true &&
         boolClickCircleSvgTwo === false &&
         boolClickCircleSvgThree === false)
     ) {
@@ -202,6 +212,7 @@ const clickCircleSvgThree = () => {
       ligneDashedTwo.classList.toggle("activeCircleBlue");
       ligneDashedThree.classList.toggle("activeCircleBlue");
       ligneDashedFour.classList.toggle("activeCircleBlue");
+      boolClickCircleSvgOne = false;
       boolClickCircleSvgThree = true;
       boolClickCircleSvgTwo = true;
     }
@@ -211,6 +222,7 @@ const clickCircleSvgThree = () => {
     blockThreeInfo.style.opacity = "1";
     blockOneInfo.style.opacity = "0";
     blockTwoInfo.style.opacity = "0";
+    boolClickCircleSvgOne = false;
   }
 };
 
@@ -285,3 +297,4 @@ const mouseOutBlockThree = () => {
   blockTwoInfo.style.opacity = "0";
   blockThreeInfo.style.transition = "0.7s ease-in-out 0s";
 }; */
+

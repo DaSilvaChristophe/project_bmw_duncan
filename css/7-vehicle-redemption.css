@@ -149,6 +149,10 @@ body {
   text-transform: uppercase;
 }
 
+.breadcrumb-item {
+  font-size: 0.9em;
+}
+
 .click_block_one,
 .click_block_two,
 .click_block_three,

@@ -131,8 +131,12 @@ body {
   text-transform: uppercase;
 }
 
+.breadcrumb-item {
+  font-size: 0.9em;
+}
+
 .margin_top_block_h2 {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .padding-bottom-paragraph {
@@ -156,10 +160,6 @@ body {
   background: #0066b1;
   border: 1px solid #707070;
   color: white;
-}
-
-.span_numbers {
-  padding-left: 90px;
 }
 
 .block_collapse > p {
@@ -189,6 +189,10 @@ body {
   position: absolute;
   top: 15%;
   left: 1.8%;
+}
+
+.span_numbers {
+  padding-left: 90px;
 }
 
 #svg-arrow-one,

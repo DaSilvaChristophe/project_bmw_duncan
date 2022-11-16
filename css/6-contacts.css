@@ -131,6 +131,19 @@ body {
   text-transform: uppercase;
 }
 
+.breadcrumb-item {
+  font-size: 0.9em;
+}
+
+.padding_x_paragraph {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.padding_x_paragraph_breadcrumb {
+  padding-left: 30px;
+}
+
 .block_contact {
   height: 250px;
   padding: 0 2px 0 2px;
@@ -265,7 +278,6 @@ body {
 .text-releveur {
   margin-left: 50px;
 }
-
 .div-asterisque {
   margin-bottom: 40px;
 }

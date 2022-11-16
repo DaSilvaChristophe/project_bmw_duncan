@@ -1,9 +1,7 @@
 const blockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
-const footer = document.querySelector(
-  "footer"
-);
+const footer = document.querySelector("footer");
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const rotateArrowThree = document.querySelector("#svg-arrow-three");
@@ -29,61 +27,61 @@ boolBlockPresentationMain = true;
 
 /* Collapse */
 
-rotateArrowOne.addEventListener("click", (event) => {
+blockCollapseOne.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowOne.classList.toggle("active");
   blockCollapseOne.classList.toggle("backgroundColor");
 });
 
-rotateArrowTwo.addEventListener("click", (event) => {
+blockCollapseTwo.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowTwo.classList.toggle("active");
   blockCollapseTwo.classList.toggle("backgroundColor");
 });
 
-rotateArrowThree.addEventListener("click", (event) => {
+blockCollapseThree.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowThree.classList.toggle("active");
   blockCollapseThree.classList.toggle("backgroundColor");
 });
 
-rotateArrowFour.addEventListener("click", (event) => {
+blockCollapseFour.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowFour.classList.toggle("active");
   blockCollapseFour.classList.toggle("backgroundColor");
 });
 
-rotateArrowFive.addEventListener("click", (event) => {
+blockCollapseFive.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowFive.classList.toggle("active");
   blockCollapseFive.classList.toggle("backgroundColor");
 });
 
-rotateArrowSix.addEventListener("click", (event) => {
+blockCollapseSix.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowSix.classList.toggle("active");
   blockCollapseSix.classList.toggle("backgroundColor");
 });
 
-rotateArrowSeven.addEventListener("click", (event) => {
+blockCollapseSeven.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowSeven.classList.toggle("active");
   blockCollapseSeven.classList.toggle("backgroundColor");
 });
 
-rotateArrowEight.addEventListener("click", (event) => {
+blockCollapseEight.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowEight.classList.toggle("active");
   blockCollapseEight.classList.toggle("backgroundColor");
 });
 
-rotateArrowNine.addEventListener("click", (event) => {
+blockCollapseNine.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowNine.classList.toggle("active");
   blockCollapseNine.classList.toggle("backgroundColor");
 });
 
-rotateArrowTen.addEventListener("click", (event) => {
+blockCollapseTen.addEventListener("click", (event) => {
   event.preventDefault();
   rotateArrowTen.classList.toggle("active");
   blockCollapseTen.classList.toggle("backgroundColor");

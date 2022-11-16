@@ -16,7 +16,7 @@ boolBlockPresentationMain = true;
 
 /* Collapse */
 
-rotateArrowOne.addEventListener("click", (event) => {
+blockCollapseOne.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (blockCollapseOpenedOne.style.display == "block") {
@@ -39,7 +39,7 @@ rotateArrowOne.addEventListener("click", (event) => {
   blockCollapseOpenedOne.style.transition = "0.2s ease-in-out 0s";
 });
 
-rotateArrowTwo.addEventListener("click", (event) => {
+blockCollapseTwo.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (blockCollapseOpenedTwo.style.display == "block") {
@@ -62,7 +62,7 @@ rotateArrowTwo.addEventListener("click", (event) => {
   blockCollapseOpenedTwo.style.transition = "0.2s ease-in-out 0s";
 });
 
-rotateArrowThree.addEventListener("click", (event) => {
+blockCollapseThree.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (blockCollapseOpenedThree.style.display == "block") {

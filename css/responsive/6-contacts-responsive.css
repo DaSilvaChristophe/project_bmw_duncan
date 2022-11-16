@@ -1,22 +1,22 @@
 /* Média Queries / Responsive */
 
-@media all and (min-width: 1400px)  {
+@media all and (min-width: 1400px) {
   .circle {
-    top: 22.5px;
+    top: 27px;
   }
 
   .title_menu {
-    top: 40px;
+    top: 35px;
   }
 }
 
 @media all and (min-width: 1130px) and (max-width: 1399px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
   }
 
   .title_menu {
-    top: 35px;
+    top: 37.5px;
     right: 240px;
   }
 
@@ -35,10 +35,10 @@
 
 @media all and (min-width: 993px) and (max-width: 1130px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
   }
   .title_menu {
-    top: 35px;
+    top: 37.5px;
     right: 225px;
   }
 
@@ -53,7 +53,7 @@
 
 @media all and (min-width: 890px) and (max-width: 992px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     right: 17%;
   }
 
@@ -100,7 +100,7 @@
 
 @media all and (min-width: 769px) and (max-width: 890px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     right: 19%;
   }
 
@@ -147,7 +147,7 @@
 
 @media all and (min-width: 577px) and (max-width: 768px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     left: 10%;
   }
 
@@ -163,6 +163,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -176,7 +177,7 @@
   }
 
   .block_presentation-header {
-    height: 150px;
+    height: 130px;
     width: 100%;
     top: 80%;
     background-color: #e7e6e6;
@@ -184,7 +185,7 @@
 
   .block_icon_contact {
     width: 12%;
-    padding-bottom: 45px;
+    padding-bottom: 15px;
     margin-left: 15px;
     display: flex;
     justify-content: flex-end;
@@ -209,12 +210,12 @@
 
   .block_title > h1 {
     color: black;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
     padding-left: 14px;
   }
 
   .block_presentation_main {
-    margin-top: 90px;
+    margin-top: 70px;
   }
 
   .block_contact {
@@ -285,6 +286,10 @@
     margin-left: 0px !important;
   }
 
+  .text-releveur {
+    margin-left: 0px;
+  }
+
   .block_infos {
     height: 130px;
   }
@@ -333,9 +338,9 @@
   }
 }
 
-@media all and (min-width: 374px) and (max-width: 576px) {
+@media all and (min-width: 359px) and (max-width: 576px) {
   .circle {
-    top: 17.9px;
+    top: 30px;
     left: 10%;
   }
 
@@ -351,6 +356,7 @@
   .child2 {
     display: flex;
     justify-content: flex-end;
+    padding-right: 25px;
   }
 
   .title_menu,
@@ -385,7 +391,7 @@
   }
 
   .block_title {
-    width: 80%;
+    width: 81%;
   }
 
   .block_title > h2 {
@@ -459,6 +465,19 @@
     height: 120px;
   }
 
+  .block_collapse_one > p,
+  .block_collapse_two > p,
+  .block_collapse_three > p,
+  .block_collapse_four > p,
+  .block_collapse_five > p,
+  .block_collapse_six > p,
+  .block_collapse_seven > p,
+  .block_collapse_eight > p,
+  .block_collapse_nine > p,
+  .block_collapse_ten > p {
+    margin-right: 15px;
+  }
+
   #svg-arrow-one,
   #svg-arrow-two,
   #svg-arrow-three,
@@ -497,7 +516,7 @@
 
   .block_infos > div > p {
     color: white;
-    padding: 0 30px 0 30px;
+    padding: 0 25px 0 25px;
     margin: 0;
   }
 

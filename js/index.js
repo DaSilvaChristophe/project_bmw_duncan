@@ -51,7 +51,7 @@ const mouseOverPassLeaseLoa = () => {
   hoverPassLeaseLoa.innerHTML =
     "Location avec Option d'Achat puis reprise du <br> véhicule par BMW si l'option n'est pas levée";
   divTwo.classList.toggle("active");
-  hoverPassLeaseLoa.style.paddingRight = "30px";
+  hoverPassLeaseLoa.style.paddingRight = "50px";
   svgPassLeaseLoa.style.fill = "#fff";
   svgPassLeaseLoa.style.opacity = "1";
 };
@@ -59,6 +59,7 @@ const mouseOverPassLeaseLoa = () => {
 const mouseOutPassLeaseLoa = () => {
   hoverPassLeaseLoa.innerHTML = "PassLease LOA";
   hoverPassLeaseLoa.style.fontSize = "1em";
+  hoverPassLeaseLoa.style.paddingRight = "0px";
   divTwo.classList.remove("active");
   svgPassLeaseLoa.style.fill = "#0066b1";
   svgPassLeaseLoa.style.opacity = "0.5";
@@ -68,7 +69,7 @@ const mouseOverLdd = () => {
   hoverLdd.classList.toggle("active");
   hoverLdd.innerHTML = "Location Longue Durée sans option d'achat";
   divThree.classList.toggle("active");
-  hoverLdd.style.paddingRight = "30px";
+  hoverLdd.style.paddingRight = "50px";
   svgLdd.style.fill = "#fff";
   svgLdd.style.opacity = "1";
 };
@@ -86,7 +87,7 @@ const mouseOverPassLeaseLdd = () => {
   hoverPassLeaseLdd.innerHTML =
     "Location Longue Durée sans option d'achat <br> puis reprise du véhicule par BMW";
   divFour.classList.toggle("active");
-  hoverPassLeaseLdd.style.paddingRight = "30px";
+  hoverPassLeaseLdd.style.paddingRight = "50px";
   svgPassLeaseLdd.style.fill = "#fff";
   svgPassLeaseLdd.style.opacity = "1";
 };

@@ -1,9 +1,7 @@
 const blockPresentationMain = document.querySelector(
   ".block_presentation_main"
 );
-const footer = document.querySelector(
-  "footer"
-);
+const footer = document.querySelector("footer");
 const rotateArrowOne = document.querySelector("#svg-arrow-one");
 const rotateArrowTwo = document.querySelector("#svg-arrow-two");
 const blockCollapseOne = document.querySelector(".block_collapse_one");
@@ -15,7 +13,7 @@ boolBlockPresentationMain = true;
 
 /* Collapse */
 
-rotateArrowOne.addEventListener("click", (event) => {
+blockCollapseOne.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (blockCollapseOpenedOne.style.display == "block") {
@@ -33,7 +31,7 @@ rotateArrowOne.addEventListener("click", (event) => {
   blockCollapseOpenedOne.style.transition = "0.2s ease-in-out 0s";
 });
 
-rotateArrowTwo.addEventListener("click", (event) => {
+blockCollapseTwo.addEventListener("click", (event) => {
   event.preventDefault();
 
   if (blockCollapseOpenedTwo.style.display == "block") {

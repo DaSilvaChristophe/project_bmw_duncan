@@ -39,7 +39,6 @@ body {
     url("/fonts/BMWTypeNext/WOFF2/BMWTypeNext-Thin.woff2") format("woff2");
 }
 
-
 /* Header and Image Top Website*/
 
 .parent {
@@ -139,6 +138,10 @@ body {
   text-transform: uppercase;
 }
 
+.breadcrumb-item {
+  font-size: 0.9em;
+}
+
 h2.uppercase {
   margin-top: 40px;
   margin-bottom: 30px;
@@ -153,6 +156,7 @@ h2.uppercase {
   position: relative;
   background: #c7c7c7;
   border: 1px solid #707070;
+  cursor: pointer;
 }
 
 .block_collapse_one.backgroundColor,
@@ -164,7 +168,7 @@ h2.uppercase {
 }
 
 .block_collapse {
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
