@@ -1,6 +1,6 @@
 /* Média Queries / Responsive */
 
-@media all and (min-width: 1400px)  {
+@media all and (min-width: 1400px) {
   .circle {
     top: 27px;
   }
@@ -41,7 +41,7 @@
 
   .img_presentation {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .ombrage_presentation {
@@ -66,12 +66,16 @@
 
   .img_presentation {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .title_menu,
   .ombrage_presentation {
     display: none;
+  }
+
+  .block_title > p {
+    font-size: 0.9em;
   }
 
   .responsive_footer {
@@ -96,7 +100,7 @@
 
   .img_presentation {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .title_menu,
@@ -106,7 +110,7 @@
 
   .img_presentation {
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .block_title > p {
@@ -142,8 +146,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     padding-right: 25px;
   }
 
@@ -159,7 +163,7 @@
   .img_presentation {
     height: 50%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .ombrage_presentation {
@@ -167,7 +171,7 @@
   }
 
   .block_presentation_main {
-    min-height: 920px;
+    min-height: 740px;
     background-color: #d9d5d5;
   }
 
@@ -183,29 +187,48 @@
   .border-bottom-header {
     background-color: black;
     top: 70%;
-    
   }
 
   .block_navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     position: absolute;
-    top: 70%;
+    top: 72%;
+    display: flex;
+    flex-direction: column;
   }
 
-  .margin_block {
+  .row_one {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
-    margin-bottom: 10px;
+    width: 100%;
   }
 
   .row_two {
-    position: absolute;
-    top: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 94%;
+    width: 100%;
+    margin-top: 123px;
+  }
+
+  #block_one,
+  #block_two,
+  #block_three,
+  #block_four,
+  #block_five,
+  #block_six,
+  #block_seven,
+  #block_eight {
+    opacity: 1;
+    height: 90%;
+  }
+
+  .margin_block {
+    height: 70%;
+  }
+
+  .block_title > p {
+    font-size: 0.9em;
   }
 
   footer {
@@ -215,11 +238,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: 0center;
-        -ms-flex-align: 0center;
-            align-items: 0center;
+    -ms-flex-align: 0center;
+    align-items: 0center;
     background: #e6e6e6;
   }
 
@@ -234,8 +257,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .block_link_footer {
@@ -244,11 +267,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .link-footer {
@@ -275,8 +298,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     padding-right: 25px;
   }
 
@@ -292,7 +315,7 @@
   .img_presentation {
     height: 50%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 
   .ombrage_presentation {
@@ -300,7 +323,7 @@
   }
 
   .block_presentation_main {
-    min-height: 920px;
+    min-height: 780px;
     background-color: #d9d5d5;
   }
 
@@ -316,29 +339,28 @@
   .border-bottom-header {
     background-color: black;
     top: 70%;
-    
   }
 
   .block_navigation {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
     position: absolute;
-    top: 70%;
+    top: 68%;
+    display: flex;
+    flex-direction: column;
   }
 
-  .margin_block {
+  .row_one {
+    display: flex;
+    flex-wrap: wrap;
     height: 100%;
-    margin-bottom: 10px;
+    width: 100%;
   }
 
   .row_two {
-    position: absolute;
-    top: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    height: 94%;
+    width: 100%;
+    margin-top: 123px;
   }
 
   #block_one,
@@ -350,6 +372,11 @@
   #block_seven,
   #block_eight {
     opacity: 1;
+    height: 90%;
+  }
+
+  .margin_block {
+    height: 70%;
   }
 
   .block_title > p {
@@ -363,11 +390,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: 0center;
-        -ms-flex-align: 0center;
-            align-items: 0center;
+    -ms-flex-align: 0center;
+    align-items: 0center;
     background: #e6e6e6;
   }
 
@@ -382,8 +409,8 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 
   .block_link_footer {
@@ -392,11 +419,11 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .link-footer {

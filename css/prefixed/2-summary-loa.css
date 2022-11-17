@@ -5,7 +5,7 @@ body {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "BMWTypeNext Light", Arial, Helvetica, sans-serif;
 }
 
@@ -81,11 +81,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   display: block;
 }
 
@@ -146,17 +146,19 @@ span {
 .block_navigation {
   position: absolute;
   width: 80%;
-  height: 70%;
-  bottom: -7%;
+  height: 76%;
+  bottom: -10%;
   left: 10%;
-  margin-bottom: 50px;
+
   background-color: transparent;
-  padding-top: 20px;
-  padding-bottom: 40px;
+}
+
+.margin_block {
+  height: 90%;
 }
 
 .block_summary {
-  width: 102%;
+  width: 94%;
   height: 94%;
   background-color: white;
 }
@@ -186,6 +188,12 @@ span {
   margin-top: 20px;
 }
 
+.row_one,
+.row_two {
+  display: flex;
+  height: 40%;
+}
+
 /* FOOTER */
 
 footer {
@@ -195,8 +203,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   background: #e6e6e6;
 }
 
@@ -216,8 +224,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
+  -ms-flex-pack: end;
+  justify-content: end;
 }
 
 .link-footer {
